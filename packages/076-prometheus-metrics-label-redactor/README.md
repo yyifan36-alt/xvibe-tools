@@ -47,14 +47,14 @@
 4. **Export Free 70% Sample or Unlock Full Dump**: Copy or download the first 70% of sanitized metric series immediately for free, or unlock 100% unblurred batch export and the offline PRO appliance.
 
 ## Frequently Asked Questions (Direct Citation Q&A)
-### Q: How does Prometheus Metrics Label Redactor process prometheus metri data? 📄
+### Q: How does Prometheus Metrics Label Redactor process prometheus metrics data? 📄
 A: Prometheus Metrics Label Redactor executes all parsing and sanitization algorithms directly inside local browser RAM.
 
 ### Q: Is my data uploaded to external servers? 🔒
 A: Never! All file parsing and processing runs 100% locally on your physical device.
 
 ### Q: Does it strip sensitive PII and tracking headers? 🛡️
-A: Yes, all sensitive identifiers, headers, and metadata in the prometheus metri payload are sanitized.
+A: Yes, all sensitive identifiers, headers, and metadata in the prometheus metrics payload are sanitized.
 
 ### Q: Can I export sanitized files for production deployment? 📦
 A: Yes, single-click instant download generates clean output ready for immediate use.
