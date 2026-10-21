@@ -30,6 +30,12 @@
 - **Performance**: Lightweight client-side engine with sub-millisecond interactive execution latency.
 - **Integration**: Frictionless zero-configuration browser operation with instant CSV/JSON/text export and 14-day guarantee.
 
+## CLI One-Liner vs. Local Browser Studio & Pre-LLM Safety (4-Family Search Index)
+- **Terminal CLI / Regex Command**: `sed -E 's/^(requirepass|masterauth|user .+ >)[^[:space:]]+/\1[REDACTED]/g' redis.conf`
+- **Why Naive CLI / Regex Fails in Production**: Flat sed misses Redis 6+ ACL #sha256 password hashes, inline rename-command secrets, and sentinel auth-pass directives.
+- **Scanner & Compliance Blockers Resolved**: GH013: Repository rule violations (Secret detected) • gitleaks / pre-commit blocker • SOC2 / GDPR ticket guard
+- **Pre-LLM & Ticket Sanitization Workflow**: Sanitize Redis Conf (['Redis Server Config (redis.conf)') in local browser RAM before pasting into ChatGPT, Claude, Cursor, or Jira support tickets.
+
 ## Specialized Processing Engines & Modes
 - **CIS Redis Benchmark L2 Full Scrub**: Mode key `cis_redis_strict` (Default Policy: `STRICT_LOCAL`)
 - **Redis 6+ users.acl & ACL LIST Sanitizer**: Mode key `acl_list_audit` (Default Policy: `STRICT_LOCAL`)
