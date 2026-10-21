@@ -1,0 +1,12 @@
+# Smithery.ai & Glama.ai Unified MCP Server Configuration
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      defaultStrictness:
+        type: number
+        default: 70
+        description: Default local sanitization strictness percentage
+  commandFunction: |-
+    (config) => ({ command: 'node', args: ['mcp-server/index.js'] })
