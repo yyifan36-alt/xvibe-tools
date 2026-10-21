@@ -1,0 +1,504 @@
+{
+  "name": "@xvibelabs/mcp-security-sanitizer",
+  "version": "2026.4.0",
+  "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
+  "homepage": "https://xvibelabs.com/",
+  "repository": "https://github.com/yyifan36-alt/xvibe-tools",
+  "tools_count": 19,
+  "tools": [
+    {
+      "name": "sanitize_redis_conf_acl_scrubber",
+      "product_slug": "086-redis-conf-acl-scrubber",
+      "title": "Local Redis Conf Acl Scrubber (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Redis Conf Acl Scrubber payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/086-redis-conf-acl-scrubber/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/086-redis-conf-acl-scrubber/",
+      "free_workbench_url": "https://xvibelabs.com/tools/086-redis-conf-acl-scrubber/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/086-redis-conf-acl-scrubber/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Redis Conf Acl Scrubber text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_systemd_unit_env_secret",
+      "product_slug": "085-systemd-unit-env-secret",
+      "title": "Local Systemd Unit Env Secret (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Systemd Unit Env Secret payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/085-systemd-unit-env-secret/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/085-systemd-unit-env-secret/",
+      "free_workbench_url": "https://xvibelabs.com/tools/085-systemd-unit-env-secret/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/085-systemd-unit-env-secret/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Systemd Unit Env Secret text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_elasticsearch_bulk_ndjson",
+      "product_slug": "084-elasticsearch-bulk-ndjson",
+      "title": "Local Elasticsearch Bulk Ndjson (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Elasticsearch Bulk Ndjson payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/084-elasticsearch-bulk-ndjson/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/084-elasticsearch-bulk-ndjson/",
+      "free_workbench_url": "https://xvibelabs.com/tools/084-elasticsearch-bulk-ndjson/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/084-elasticsearch-bulk-ndjson/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Elasticsearch Bulk Ndjson text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_wireguard_wg0_conf",
+      "product_slug": "083-wireguard-wg0-conf",
+      "title": "Local Wireguard Wg0 Conf (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Wireguard Wg0 Conf payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/083-wireguard-wg0-conf/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/083-wireguard-wg0-conf/",
+      "free_workbench_url": "https://xvibelabs.com/tools/083-wireguard-wg0-conf/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/083-wireguard-wg0-conf/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Wireguard Wg0 Conf text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_pgdump_sql_copy",
+      "product_slug": "082-pgdump-sql-copy",
+      "title": "Local Pgdump Sql Copy (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Pgdump Sql Copy payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/082-pgdump-sql-copy/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/082-pgdump-sql-copy/",
+      "free_workbench_url": "https://xvibelabs.com/tools/082-pgdump-sql-copy/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/082-pgdump-sql-copy/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Pgdump Sql Copy text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_ansible_playbook_vault_vars_yaml_ssh_private_key_password_redactor_local_ram_client_side",
+      "product_slug": "081-ansible-playbook-vault-vars-yaml-ssh-private-key-password-redactor-local-ram-client-side",
+      "title": "Local Ansible Playbook Vault Vars Yaml Ssh Private Key Password Redactor Local Ram Client Side (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Ansible Playbook Vault Vars Yaml Ssh Private Key Password Redactor Local Ram Client Side payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/081-ansible-playbook-vault-vars-yaml-ssh-private-key-password-redactor-local-ram-client-side/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/081-ansible-playbook-vault-vars-yaml-ssh-private-key-password-redactor-local-ram-client-side/",
+      "free_workbench_url": "https://xvibelabs.com/tools/081-ansible-playbook-vault-vars-yaml-ssh-private-key-password-redactor-local-ram-client-side/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/081-ansible-playbook-vault-vars-yaml-ssh-private-key-password-redactor-local-ram-client-side/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Ansible Playbook Vault Vars Yaml Ssh Private Key Password Redactor Local Ram Client Side text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_docker_compose_yaml",
+      "product_slug": "080-docker-compose-yaml",
+      "title": "Local Docker Compose Yaml (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Docker Compose Yaml payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/080-docker-compose-yaml/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/080-docker-compose-yaml/",
+      "free_workbench_url": "https://xvibelabs.com/tools/080-docker-compose-yaml/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/080-docker-compose-yaml/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Docker Compose Yaml text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_helm_values_yaml_image_pull_secret_ingress_tls_key_redactor_local_ram_client_side",
+      "product_slug": "079-helm-values-yaml-image-pull-secret-ingress-tls-key-redactor-local-ram-client-side",
+      "title": "Local Helm Values Yaml Image Pull Secret Ingress Tls Key Redactor Local Ram Client Side (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Helm Values Yaml Image Pull Secret Ingress Tls Key Redactor Local Ram Client Side payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/079-helm-values-yaml-image-pull-secret-ingress-tls-key-redactor-local-ram-client-side/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/079-helm-values-yaml-image-pull-secret-ingress-tls-key-redactor-local-ram-client-side/",
+      "free_workbench_url": "https://xvibelabs.com/tools/079-helm-values-yaml-image-pull-secret-ingress-tls-key-redactor-local-ram-client-side/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/079-helm-values-yaml-image-pull-secret-ingress-tls-key-redactor-local-ram-client-side/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Helm Values Yaml Image Pull Secret Ingress Tls Key Redactor Local Ram Client Side text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_cloudflare_wrangler_toml_api_token_kv_namespace_scrubber_client_side",
+      "product_slug": "078-cloudflare-wrangler-toml-api-token-kv-namespace-scrubber-client-side",
+      "title": "Local Cloudflare Wrangler Toml Api Token Kv Namespace Scrubber Client Side (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Cloudflare Wrangler Toml Api Token Kv Namespace Scrubber Client Side payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/078-cloudflare-wrangler-toml-api-token-kv-namespace-scrubber-client-side/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/078-cloudflare-wrangler-toml-api-token-kv-namespace-scrubber-client-side/",
+      "free_workbench_url": "https://xvibelabs.com/tools/078-cloudflare-wrangler-toml-api-token-kv-namespace-scrubber-client-side/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/078-cloudflare-wrangler-toml-api-token-kv-namespace-scrubber-client-side/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Cloudflare Wrangler Toml Api Token Kv Namespace Scrubber Client Side text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_nacha_ach_batch_file_routing_account_number_scrubber_client_side",
+      "product_slug": "077-nacha-ach-batch-file-routing-account-number-scrubber-client-side",
+      "title": "Local Nacha Ach Batch File Routing Account Number Scrubber Client Side (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Nacha Ach Batch File Routing Account Number Scrubber Client Side payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/077-nacha-ach-batch-file-routing-account-number-scrubber-client-side/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/077-nacha-ach-batch-file-routing-account-number-scrubber-client-side/",
+      "free_workbench_url": "https://xvibelabs.com/tools/077-nacha-ach-batch-file-routing-account-number-scrubber-client-side/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/077-nacha-ach-batch-file-routing-account-number-scrubber-client-side/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Nacha Ach Batch File Routing Account Number Scrubber Client Side text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_prometheus_metrics_label_redactor",
+      "product_slug": "076-prometheus-metrics-label-redactor",
+      "title": "Local Prometheus Metrics Label Redactor (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Prometheus Metrics Label Redactor payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/076-prometheus-metrics-label-redactor/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/076-prometheus-metrics-label-redactor/",
+      "free_workbench_url": "https://xvibelabs.com/tools/076-prometheus-metrics-label-redactor/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/076-prometheus-metrics-label-redactor/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Prometheus Metrics Label Redactor text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_kafka_event_payload_scrubber",
+      "product_slug": "075-kafka-event-payload-scrubber",
+      "title": "Local Kafka Event Payload Scrubber (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Kafka Event Payload Scrubber payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/075-kafka-event-payload-scrubber/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/075-kafka-event-payload-scrubber/",
+      "free_workbench_url": "https://xvibelabs.com/tools/075-kafka-event-payload-scrubber/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/075-kafka-event-payload-scrubber/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Kafka Event Payload Scrubber text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_sepa_iso20022_xml_sanitizer",
+      "product_slug": "074-sepa-iso20022-xml-sanitizer",
+      "title": "Local Sepa Iso20022 Xml Sanitizer (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Sepa Iso20022 Xml Sanitizer payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/074-sepa-iso20022-xml-sanitizer/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/074-sepa-iso20022-xml-sanitizer/",
+      "free_workbench_url": "https://xvibelabs.com/tools/074-sepa-iso20022-xml-sanitizer/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/074-sepa-iso20022-xml-sanitizer/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Sepa Iso20022 Xml Sanitizer text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_graphql_schema_inspector",
+      "product_slug": "073-graphql-schema-inspector",
+      "title": "Local Graphql Schema Inspector (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Graphql Schema Inspector payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/073-graphql-schema-inspector/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/073-graphql-schema-inspector/",
+      "free_workbench_url": "https://xvibelabs.com/tools/073-graphql-schema-inspector/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/073-graphql-schema-inspector/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Graphql Schema Inspector text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_har_log_network_token_redactor",
+      "product_slug": "072-har-log-network-token-redactor",
+      "title": "Local Har Log Network Token Redactor (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Har Log Network Token Redactor payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/072-har-log-network-token-redactor/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/072-har-log-network-token-redactor/",
+      "free_workbench_url": "https://xvibelabs.com/tools/072-har-log-network-token-redactor/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/072-har-log-network-token-redactor/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Har Log Network Token Redactor text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_stripe_webhook_payload_scrubber",
+      "product_slug": "071-stripe-webhook-payload-scrubber",
+      "title": "Local Stripe Webhook Payload Scrubber (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Stripe Webhook Payload Scrubber payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/071-stripe-webhook-payload-scrubber/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/071-stripe-webhook-payload-scrubber/",
+      "free_workbench_url": "https://xvibelabs.com/tools/071-stripe-webhook-payload-scrubber/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/071-stripe-webhook-payload-scrubber/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Stripe Webhook Payload Scrubber text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_postman_collection_token_redactor",
+      "product_slug": "070-postman-collection-token-redactor",
+      "title": "Local Postman Collection Token Redactor (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Postman Collection Token Redactor payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/070-postman-collection-token-redactor/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/070-postman-collection-token-redactor/",
+      "free_workbench_url": "https://xvibelabs.com/tools/070-postman-collection-token-redactor/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/070-postman-collection-token-redactor/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Postman Collection Token Redactor text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_opentelemetry_trace_redactor",
+      "product_slug": "069-opentelemetry-trace-redactor",
+      "title": "Local Opentelemetry Trace Redactor (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Opentelemetry Trace Redactor payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/069-opentelemetry-trace-redactor/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/069-opentelemetry-trace-redactor/",
+      "free_workbench_url": "https://xvibelabs.com/tools/069-opentelemetry-trace-redactor/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/069-opentelemetry-trace-redactor/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Opentelemetry Trace Redactor text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_kubeconfig_secret_redactor",
+      "product_slug": "068-kubeconfig-secret-redactor",
+      "title": "Local Kubeconfig Secret Redactor (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Kubeconfig Secret Redactor payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/068-kubeconfig-secret-redactor/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/068-kubeconfig-secret-redactor/",
+      "free_workbench_url": "https://xvibelabs.com/tools/068-kubeconfig-secret-redactor/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/068-kubeconfig-secret-redactor/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Kubeconfig Secret Redactor text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    }
+  ]
+}
