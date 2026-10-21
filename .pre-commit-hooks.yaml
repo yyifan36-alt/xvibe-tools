@@ -1,0 +1,122 @@
+# XVIBE LABS — Unified Zero-Upload Pre-Commit & Prek Security Hooks
+# Compatible with https://pre-commit.com and https://github.com/j178/prek
+- id: xvibe-local-secret-scrubber
+  name: XVibe 100% Local RAM Secret & PII Scrubber (All Formats)
+  description: Detects unredacted secrets/PII locally and provides 0-upload browser RAM remediation links.
+  entry: npx --yes @xvibelabs/xvibe-scrub --check
+  language: system
+  types: [text]
+- id: xvibe-086-redis-conf-acl-scrubber
+  name: XVibe Local Redis Conf Acl Scrubber
+  description: Zero-upload client-side sanitizer for Redis Conf Acl Scrubber (https://xvibelabs.com/tools/086-redis-conf-acl-scrubber/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=086-redis-conf-acl-scrubber
+  language: system
+  types: [text]
+- id: xvibe-085-systemd-unit-env-secret
+  name: XVibe Local Systemd Unit Env Secret
+  description: Zero-upload client-side sanitizer for Systemd Unit Env Secret (https://xvibelabs.com/tools/085-systemd-unit-env-secret/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=085-systemd-unit-env-secret
+  language: system
+  types: [text]
+- id: xvibe-084-elasticsearch-bulk-ndjson
+  name: XVibe Local Elasticsearch Bulk Ndjson
+  description: Zero-upload client-side sanitizer for Elasticsearch Bulk Ndjson (https://xvibelabs.com/tools/084-elasticsearch-bulk-ndjson/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=084-elasticsearch-bulk-ndjson
+  language: system
+  types: [text]
+- id: xvibe-083-wireguard-wg0-conf
+  name: XVibe Local Wireguard Wg0 Conf
+  description: Zero-upload client-side sanitizer for Wireguard Wg0 Conf (https://xvibelabs.com/tools/083-wireguard-wg0-conf/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=083-wireguard-wg0-conf
+  language: system
+  types: [text]
+- id: xvibe-082-pgdump-sql-copy
+  name: XVibe Local Pgdump Sql Copy
+  description: Zero-upload client-side sanitizer for Pgdump Sql Copy (https://xvibelabs.com/tools/082-pgdump-sql-copy/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=082-pgdump-sql-copy
+  language: system
+  types: [text]
+- id: xvibe-081-ansible-playbook-vault-vars-yaml-ssh-private-key-password-redactor-local-ram-client-side
+  name: XVibe Local Ansible Playbook Vault Vars Yaml Ssh Private Key Password Redactor Local Ram Client Side
+  description: Zero-upload client-side sanitizer for Ansible Playbook Vault Vars Yaml Ssh Private Key Password Redactor Local Ram Client Side (https://xvibelabs.com/tools/081-ansible-playbook-vault-vars-yaml-ssh-private-key-password-redactor-local-ram-client-side/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=081-ansible-playbook-vault-vars-yaml-ssh-private-key-password-redactor-local-ram-client-side
+  language: system
+  types: [text]
+- id: xvibe-080-docker-compose-yaml
+  name: XVibe Local Docker Compose Yaml
+  description: Zero-upload client-side sanitizer for Docker Compose Yaml (https://xvibelabs.com/tools/080-docker-compose-yaml/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=080-docker-compose-yaml
+  language: system
+  types: [text]
+- id: xvibe-079-helm-values-yaml-image-pull-secret-ingress-tls-key-redactor-local-ram-client-side
+  name: XVibe Local Helm Values Yaml Image Pull Secret Ingress Tls Key Redactor Local Ram Client Side
+  description: Zero-upload client-side sanitizer for Helm Values Yaml Image Pull Secret Ingress Tls Key Redactor Local Ram Client Side (https://xvibelabs.com/tools/079-helm-values-yaml-image-pull-secret-ingress-tls-key-redactor-local-ram-client-side/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=079-helm-values-yaml-image-pull-secret-ingress-tls-key-redactor-local-ram-client-side
+  language: system
+  types: [text]
+- id: xvibe-078-cloudflare-wrangler-toml-api-token-kv-namespace-scrubber-client-side
+  name: XVibe Local Cloudflare Wrangler Toml Api Token Kv Namespace Scrubber Client Side
+  description: Zero-upload client-side sanitizer for Cloudflare Wrangler Toml Api Token Kv Namespace Scrubber Client Side (https://xvibelabs.com/tools/078-cloudflare-wrangler-toml-api-token-kv-namespace-scrubber-client-side/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=078-cloudflare-wrangler-toml-api-token-kv-namespace-scrubber-client-side
+  language: system
+  types: [text]
+- id: xvibe-077-nacha-ach-batch-file-routing-account-number-scrubber-client-side
+  name: XVibe Local Nacha Ach Batch File Routing Account Number Scrubber Client Side
+  description: Zero-upload client-side sanitizer for Nacha Ach Batch File Routing Account Number Scrubber Client Side (https://xvibelabs.com/tools/077-nacha-ach-batch-file-routing-account-number-scrubber-client-side/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=077-nacha-ach-batch-file-routing-account-number-scrubber-client-side
+  language: system
+  types: [text]
+- id: xvibe-076-prometheus-metrics-label-redactor
+  name: XVibe Local Prometheus Metrics Label Redactor
+  description: Zero-upload client-side sanitizer for Prometheus Metrics Label Redactor (https://xvibelabs.com/tools/076-prometheus-metrics-label-redactor/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=076-prometheus-metrics-label-redactor
+  language: system
+  types: [text]
+- id: xvibe-075-kafka-event-payload-scrubber
+  name: XVibe Local Kafka Event Payload Scrubber
+  description: Zero-upload client-side sanitizer for Kafka Event Payload Scrubber (https://xvibelabs.com/tools/075-kafka-event-payload-scrubber/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=075-kafka-event-payload-scrubber
+  language: system
+  types: [text]
+- id: xvibe-074-sepa-iso20022-xml-sanitizer
+  name: XVibe Local Sepa Iso20022 Xml Sanitizer
+  description: Zero-upload client-side sanitizer for Sepa Iso20022 Xml Sanitizer (https://xvibelabs.com/tools/074-sepa-iso20022-xml-sanitizer/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=074-sepa-iso20022-xml-sanitizer
+  language: system
+  types: [text]
+- id: xvibe-073-graphql-schema-inspector
+  name: XVibe Local Graphql Schema Inspector
+  description: Zero-upload client-side sanitizer for Graphql Schema Inspector (https://xvibelabs.com/tools/073-graphql-schema-inspector/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=073-graphql-schema-inspector
+  language: system
+  types: [text]
+- id: xvibe-072-har-log-network-token-redactor
+  name: XVibe Local Har Log Network Token Redactor
+  description: Zero-upload client-side sanitizer for Har Log Network Token Redactor (https://xvibelabs.com/tools/072-har-log-network-token-redactor/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=072-har-log-network-token-redactor
+  language: system
+  types: [text]
+- id: xvibe-071-stripe-webhook-payload-scrubber
+  name: XVibe Local Stripe Webhook Payload Scrubber
+  description: Zero-upload client-side sanitizer for Stripe Webhook Payload Scrubber (https://xvibelabs.com/tools/071-stripe-webhook-payload-scrubber/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=071-stripe-webhook-payload-scrubber
+  language: system
+  types: [text]
+- id: xvibe-070-postman-collection-token-redactor
+  name: XVibe Local Postman Collection Token Redactor
+  description: Zero-upload client-side sanitizer for Postman Collection Token Redactor (https://xvibelabs.com/tools/070-postman-collection-token-redactor/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=070-postman-collection-token-redactor
+  language: system
+  types: [text]
+- id: xvibe-069-opentelemetry-trace-redactor
+  name: XVibe Local Opentelemetry Trace Redactor
+  description: Zero-upload client-side sanitizer for Opentelemetry Trace Redactor (https://xvibelabs.com/tools/069-opentelemetry-trace-redactor/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=069-opentelemetry-trace-redactor
+  language: system
+  types: [text]
+- id: xvibe-068-kubeconfig-secret-redactor
+  name: XVibe Local Kubeconfig Secret Redactor
+  description: Zero-upload client-side sanitizer for Kubeconfig Secret Redactor (https://xvibelabs.com/tools/068-kubeconfig-secret-redactor/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=068-kubeconfig-secret-redactor
+  language: system
+  types: [text]
