@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 20,
+  "tools_count": 21,
   "tools": [
+    {
+      "name": "sanitize_datadog_agent_yaml",
+      "product_slug": "088-datadog-agent-yaml",
+      "title": "Local Datadog Agent Yaml (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Datadog Agent Yaml payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/088-datadog-agent-yaml/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/088-datadog-agent-yaml/",
+      "free_workbench_url": "https://xvibelabs.com/tools/088-datadog-agent-yaml/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/088-datadog-agent-yaml/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Datadog Agent Yaml text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_nginx_access_log",
       "product_slug": "087-nginx-access-log",
