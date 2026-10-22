@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-088-datadog-agent-yaml
+  name: XVibe Local Datadog Agent Yaml
+  description: Zero-upload client-side sanitizer for Datadog Agent Yaml (https://xvibelabs.com/tools/088-datadog-agent-yaml/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=088-datadog-agent-yaml
+  language: system
+  types: [text]
 - id: xvibe-087-nginx-access-log
   name: XVibe Local Nginx Access Log
   description: Zero-upload client-side sanitizer for Nginx Access Log (https://xvibelabs.com/tools/087-nginx-access-log/)
