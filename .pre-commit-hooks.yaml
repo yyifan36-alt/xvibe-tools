@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-089-salesforce-apex-debug
+  name: XVibe Local Salesforce Apex Debug
+  description: Zero-upload client-side sanitizer for Salesforce Apex Debug (https://xvibelabs.com/tools/089-salesforce-apex-debug/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=089-salesforce-apex-debug
+  language: system
+  types: [text]
 - id: xvibe-088-datadog-agent-yaml
   name: XVibe Local Datadog Agent Yaml
   description: Zero-upload client-side sanitizer for Datadog Agent Yaml (https://xvibelabs.com/tools/088-datadog-agent-yaml/)
