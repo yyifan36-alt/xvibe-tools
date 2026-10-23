@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-092-ofx-qfx-bank
+  name: XVibe Local Ofx Qfx Bank
+  description: Zero-upload client-side sanitizer for Ofx Qfx Bank (https://xvibelabs.com/tools/092-ofx-qfx-bank/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=092-ofx-qfx-bank
+  language: system
+  types: [text]
 - id: xvibe-091-aws-cloudtrail-event-json
   name: XVibe Local Aws Cloudtrail Event Json
   description: Zero-upload client-side sanitizer for Aws Cloudtrail Event Json (https://xvibelabs.com/tools/091-aws-cloudtrail-event-json/)
