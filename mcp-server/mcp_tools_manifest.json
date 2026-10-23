@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 22,
+  "tools_count": 23,
   "tools": [
+    {
+      "name": "sanitize_openapi_swagger_spec",
+      "product_slug": "090-openapi-swagger-spec",
+      "title": "Local Openapi Swagger Spec (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Openapi Swagger Spec payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/090-openapi-swagger-spec/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/090-openapi-swagger-spec/",
+      "free_workbench_url": "https://xvibelabs.com/tools/090-openapi-swagger-spec/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/090-openapi-swagger-spec/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Openapi Swagger Spec text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_salesforce_apex_debug",
       "product_slug": "089-salesforce-apex-debug",
