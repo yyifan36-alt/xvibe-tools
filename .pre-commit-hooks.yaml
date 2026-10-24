@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-094-istio-envoy-config
+  name: XVibe Local Istio Envoy Config
+  description: Zero-upload client-side sanitizer for Istio Envoy Config (https://xvibelabs.com/tools/094-istio-envoy-config/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=094-istio-envoy-config
+  language: system
+  types: [text]
 - id: xvibe-093-saml-assertion-xml-signature
   name: XVibe Local Saml Assertion Xml Signature
   description: Zero-upload client-side sanitizer for Saml Assertion Xml Signature (https://xvibelabs.com/tools/093-saml-assertion-xml-signature/)
