@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 29,
+  "tools_count": 30,
   "tools": [
+    {
+      "name": "sanitize_apache_parquet_pii_column",
+      "product_slug": "097-apache-parquet-pii-column",
+      "title": "Local Apache Parquet Pii Column (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Apache Parquet Pii Column payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/097-apache-parquet-pii-column/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/097-apache-parquet-pii-column/",
+      "free_workbench_url": "https://xvibelabs.com/tools/097-apache-parquet-pii-column/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/097-apache-parquet-pii-column/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Apache Parquet Pii Column text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_jupyter_notebook_ipynb",
       "product_slug": "096-jupyter-notebook-ipynb",
