@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 31,
+  "tools_count": 32,
   "tools": [
+    {
+      "name": "sanitize_geojson_spatial_coordinate_pre",
+      "product_slug": "099-geojson-spatial-coordinate-pre",
+      "title": "Local Geojson Spatial Coordinate Pre (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Geojson Spatial Coordinate Pre payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/099-geojson-spatial-coordinate-pre/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/099-geojson-spatial-coordinate-pre/",
+      "free_workbench_url": "https://xvibelabs.com/tools/099-geojson-spatial-coordinate-pre/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/099-geojson-spatial-coordinate-pre/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Geojson Spatial Coordinate Pre text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_protobuf_binary",
       "product_slug": "098-protobuf-binary",
