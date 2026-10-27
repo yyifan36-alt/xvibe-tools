@@ -1,0 +1,15 @@
+# Smithery.ai Local Stdio Configuration (Zero Cloud Container Upload)
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      xvibeLicenseKey:
+        type: string
+        description: "Optional $19 Lifetime PRO or €3.99 24h Pass License Key from https://xvibelabs.com"
+  commandFunction: |-
+    (config) => ({
+      command: 'npx',
+      args: ['-y', '@xvibe/dlp-mcp'],
+      env: { XVIBE_LICENSE_KEY: config.xvibeLicenseKey || 'FREE_TIER' }
+    })
