@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-103-varnish-vcl-ban
+  name: XVibe Local Varnish Vcl Ban
+  description: Zero-upload client-side sanitizer for Varnish Vcl Ban (https://xvibelabs.com/tools/103-varnish-vcl-ban/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=103-varnish-vcl-ban
+  language: system
+  types: [text]
 - id: xvibe-102-webrtc-sdp-ice-candidate
   name: XVibe Local Webrtc Sdp Ice Candidate
   description: Zero-upload client-side sanitizer for Webrtc Sdp Ice Candidate (https://xvibelabs.com/tools/102-webrtc-sdp-ice-candidate/)
