@@ -1,0 +1,44 @@
+{
+  "name": "@xvibe/dlp-mcp",
+  "version": "1.37.0",
+  "description": "Deterministic Pre-LLM Local Zero-Trust DLP Firewall & AST Pseudo-Anonymizer (37 appliances, 0 bytes uploaded).",
+  "type": "module",
+  "mcpName": "io.github.yyifan36-alt/dlp-mcp",
+  "bin": {
+    "xvibe-dlp-mcp": "./mcp-server.mjs",
+    "dlp-mcp": "./mcp-server.mjs"
+  },
+  "main": "./mcp-server.mjs",
+  "files": [
+    "mcp-server.mjs",
+    "operators/",
+    "server.json",
+    "smithery.yaml",
+    "glama.json",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "dlp",
+    "redaction",
+    "anonymization",
+    "claude-code",
+    "cursor",
+    "secops",
+    "devsecops",
+    "local-first"
+  ],
+  "author": "XVIBE LABS (https://xvibelabs.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yyifan36-alt/xvibe-tools.git",
+    "directory": "packages/dlp-mcp"
+  },
+  "homepage": "https://xvibelabs.com",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
