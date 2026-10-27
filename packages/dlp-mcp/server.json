@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "io.github.yyifan36-alt/dlp-mcp",
+  "description": "Local Pre-LLM Zero-Trust DLP Firewall & AST Pseudo-Anonymizer (37 formats, 0 cloud egress).",
+  "version": "1.37.0",
+  "repository": {
+    "url": "https://github.com/yyifan36-alt/xvibe-tools",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@xvibe/dlp-mcp",
+      "version": "1.37.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
