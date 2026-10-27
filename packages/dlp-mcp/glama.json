@@ -1,0 +1,8 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": [
+    "yyifan36-alt"
+  ],
+  "name": "@xvibe/dlp-mcp",
+  "description": "Deterministic Pre-LLM Local DLP Firewall supporting 37 infrastructure, database, and compliance file formats."
+}
