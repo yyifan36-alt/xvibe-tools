@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-104-mosquitto-mqtt-passwd-acl
+  name: XVibe Local Mosquitto Mqtt Passwd Acl
+  description: Zero-upload client-side sanitizer for Mosquitto Mqtt Passwd Acl (https://xvibelabs.com/tools/104-mosquitto-mqtt-passwd-acl/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=104-mosquitto-mqtt-passwd-acl
+  language: system
+  types: [text]
 - id: xvibe-103-varnish-vcl-ban
   name: XVibe Local Varnish Vcl Ban
   description: Zero-upload client-side sanitizer for Varnish Vcl Ban (https://xvibelabs.com/tools/103-varnish-vcl-ban/)
