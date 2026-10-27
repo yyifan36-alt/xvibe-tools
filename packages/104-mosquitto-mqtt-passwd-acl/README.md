@@ -30,6 +30,12 @@
 - **Performance**: Lightweight client-side engine with sub-millisecond interactive execution latency.
 - **Integration**: Frictionless zero-configuration browser operation with instant CSV/JSON/text export and 14-day guarantee.
 
+## Local AI Agent & Pre-LLM Firewall MCP Integration (Claude Code / Cursor / Unix CLI)
+- **Unified Local MCP Package**: `@xvibe/dlp-mcp` (`io.github.yyifan36-alt/dlp-mcp`) — zero-dependency local `stdio` Model Context Protocol server and Unix CLI pipe.
+- **Claude Code + `.claude/settings.json` Hard Permission Guardrail**: `claude mcp add xvibe-dlp -- npx -y @xvibe/dlp-mcp && npx -y @xvibe/dlp-mcp --init`
+- **MCP Tool Invocation (File-Path Blind Mode)**: Call `xvibe_sanitize_file({ "file_path": "<path>", "format_slug": "104-mosquitto-mqtt-passwd-acl" })` to deterministically pseudo-anonymize secrets, IPs, and emails in local RAM before LLM context ingestion.
+- **Unix CLI Pipe Mode**: `cat payload.conf | npx -y @xvibe/dlp-mcp --pipe --slug=104-mosquitto-mqtt-passwd-acl > clean.conf`
+
 ## CLI One-Liner vs. Local Browser Studio & Pre-LLM Safety (4-Family Search Index)
 - **Terminal CLI / Regex Command**: `sed -E 's/^(remote_password|psk)[[:space:]]+.+/\1 REDACTED_MQTT_SECRET/g; s/^([^:#]+):\$[0-9]+\$.+/\1:$7$101$REDACTED_PBKDF2_HASH/g' mosquitto.conf`
 - **Why Naive CLI / Regex Fails in Production**: Naive sed commands miss bridge remote_username, internal broker address IP:port endpoints, inline psk_file hexadecimal secrets, and tenant device IDs embedded inside pattern readwrite sensors/<tenant_id>/# ACL rules—leaving IoT fleet topology exposed.
