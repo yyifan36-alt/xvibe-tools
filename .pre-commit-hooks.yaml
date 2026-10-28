@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-107-allocate-freight-customs-duty
+  name: XVibe Local Allocate Freight Customs Duty
+  description: Zero-upload client-side sanitizer for Allocate Freight Customs Duty (https://xvibelabs.com/tools/107-allocate-freight-customs-duty/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=107-allocate-freight-customs-duty
+  language: system
+  types: [text]
 - id: xvibe-106-thermal-shipping-label-4x6
   name: XVibe Local Thermal Shipping Label 4X6
   description: Zero-upload client-side sanitizer for Thermal Shipping Label 4X6 (https://xvibelabs.com/tools/106-thermal-shipping-label-4x6/)
