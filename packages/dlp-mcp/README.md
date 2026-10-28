@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **39 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **40 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (39 Formats)
+## 🛡️ Supported Appliances (40 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -60,3 +60,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `104-mosquitto-mqtt-passwd-acl` | **MosquittoAclShield** | MQTT Config & ACL Scrubber | [https://xvibelabs.com/tools/104-mosquitto-mqtt-passwd-acl/](https://xvibelabs.com/tools/104-mosquitto-mqtt-passwd-acl/) |
 | `105-fba-sku-profitability-analyzer` | **Fbaskustudio** | FBA SKU Profit Studio | [https://xvibelabs.com/tools/105-fba-sku-profitability-analyzer/](https://xvibelabs.com/tools/105-fba-sku-profitability-analyzer/) |
 | `106-thermal-shipping-label-4x6` | **Thermal Shipping Label 4x6** | 4x6 Thermal Label Studio | [https://xvibelabs.com/tools/106-thermal-shipping-label-4x6/](https://xvibelabs.com/tools/106-thermal-shipping-label-4x6/) |
+| `107-allocate-freight-customs-duty` | **Allocate Freight Customs Duty** | Landed Cost & Duty Studio | [https://xvibelabs.com/tools/107-allocate-freight-customs-duty/](https://xvibelabs.com/tools/107-allocate-freight-customs-duty/) |
