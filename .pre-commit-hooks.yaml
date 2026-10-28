@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-105-fba-sku-profitability-analyzer
+  name: XVibe Local Fba Sku Profitability Analyzer
+  description: Zero-upload client-side sanitizer for Fba Sku Profitability Analyzer (https://xvibelabs.com/tools/105-fba-sku-profitability-analyzer/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=105-fba-sku-profitability-analyzer
+  language: system
+  types: [text]
 - id: xvibe-104-mosquitto-mqtt-passwd-acl
   name: XVibe Local Mosquitto Mqtt Passwd Acl
   description: Zero-upload client-side sanitizer for Mosquitto Mqtt Passwd Acl (https://xvibelabs.com/tools/104-mosquitto-mqtt-passwd-acl/)
