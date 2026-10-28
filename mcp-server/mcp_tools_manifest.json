@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 39,
+  "tools_count": 40,
   "tools": [
+    {
+      "name": "sanitize_allocate_freight_customs_duty",
+      "product_slug": "107-allocate-freight-customs-duty",
+      "title": "Local Allocate Freight Customs Duty (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Allocate Freight Customs Duty payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/107-allocate-freight-customs-duty/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/107-allocate-freight-customs-duty/",
+      "free_workbench_url": "https://xvibelabs.com/tools/107-allocate-freight-customs-duty/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/107-allocate-freight-customs-duty/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Allocate Freight Customs Duty text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_thermal_shipping_label_4x6",
       "product_slug": "106-thermal-shipping-label-4x6",
