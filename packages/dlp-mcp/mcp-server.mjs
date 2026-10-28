@@ -102,7 +102,7 @@ if (process.argv.includes('--pipe')) {
 }
 
 // Mode B: Standard MCP JSON-RPC 2.0 Server over Stdio (Compatible with 2025-06-18 & 2026-07-28 Stateless Core)
-const SERVER_INFO = { name: '@xvibe/dlp-mcp', version: "1.37.0" };
+const SERVER_INFO = { name: '@xvibe/dlp-mcp', version: "1.38.0" };
 const CAPABILITIES = { tools: { listChanged: false } };
 
 const TOOLS = [
