@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **37 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **38 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (37 Formats)
+## 🛡️ Supported Appliances (38 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -58,3 +58,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `102-webrtc-sdp-ice-candidate` | **WebRtcSdpShield** | WebRTC SDP & ICE Scrubber | [https://xvibelabs.com/tools/102-webrtc-sdp-ice-candidate/](https://xvibelabs.com/tools/102-webrtc-sdp-ice-candidate/) |
 | `103-varnish-vcl-ban` | **VarnishVclShield** | Varnish VCL Scrubber | [https://xvibelabs.com/tools/103-varnish-vcl-ban/](https://xvibelabs.com/tools/103-varnish-vcl-ban/) |
 | `104-mosquitto-mqtt-passwd-acl` | **MosquittoAclShield** | MQTT Config & ACL Scrubber | [https://xvibelabs.com/tools/104-mosquitto-mqtt-passwd-acl/](https://xvibelabs.com/tools/104-mosquitto-mqtt-passwd-acl/) |
+| `105-fba-sku-profitability-analyzer` | **Fbaskustudio** | FBA SKU Profit Studio | [https://xvibelabs.com/tools/105-fba-sku-profitability-analyzer/](https://xvibelabs.com/tools/105-fba-sku-profitability-analyzer/) |
