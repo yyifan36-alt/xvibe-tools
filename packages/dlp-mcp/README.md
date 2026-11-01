@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **40 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **50 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (40 Formats)
+## 🛡️ Supported Appliances (50 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -58,6 +58,16 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `102-webrtc-sdp-ice-candidate` | **WebRtcSdpShield** | WebRTC SDP & ICE Scrubber | [https://xvibelabs.com/tools/102-webrtc-sdp-ice-candidate/](https://xvibelabs.com/tools/102-webrtc-sdp-ice-candidate/) |
 | `103-varnish-vcl-ban` | **VarnishVclShield** | Varnish VCL Scrubber | [https://xvibelabs.com/tools/103-varnish-vcl-ban/](https://xvibelabs.com/tools/103-varnish-vcl-ban/) |
 | `104-mosquitto-mqtt-passwd-acl` | **MosquittoAclShield** | MQTT Config & ACL Scrubber | [https://xvibelabs.com/tools/104-mosquitto-mqtt-passwd-acl/](https://xvibelabs.com/tools/104-mosquitto-mqtt-passwd-acl/) |
-| `105-fba-sku-profitability-analyzer` | **Fbaskustudio** | FBA SKU Profit Studio | [https://xvibelabs.com/tools/105-fba-sku-profitability-analyzer/](https://xvibelabs.com/tools/105-fba-sku-profitability-analyzer/) |
-| `106-thermal-shipping-label-4x6` | **Thermal Shipping Label 4x6** | 4x6 Thermal Label Studio | [https://xvibelabs.com/tools/106-thermal-shipping-label-4x6/](https://xvibelabs.com/tools/106-thermal-shipping-label-4x6/) |
-| `107-allocate-freight-customs-duty` | **Allocate Freight Customs Duty** | Landed Cost & Duty Studio | [https://xvibelabs.com/tools/107-allocate-freight-customs-duty/](https://xvibelabs.com/tools/107-allocate-freight-customs-duty/) |
+| `105-fba-sku-profitability-analyzer` | **Fbaskustudio** | FBA Margin Auditor | [https://xvibelabs.com/tools/105-fba-sku-profitability-analyzer/](https://xvibelabs.com/tools/105-fba-sku-profitability-analyzer/) |
+| `106-thermal-shipping-label-4x6` | **Thermallabelstudio** | 4x6 Thermal Label Studio | [https://xvibelabs.com/tools/106-thermal-shipping-label-4x6/](https://xvibelabs.com/tools/106-thermal-shipping-label-4x6/) |
+| `107-allocate-freight-customs-duty` | **Landedcoststudio** | Landed Cost & Duty Studio | [https://xvibelabs.com/tools/107-allocate-freight-customs-duty/](https://xvibelabs.com/tools/107-allocate-freight-customs-duty/) |
+| `108-print-demand-profit-calculator` | **PodMargin Studio** | POD Seller Profit Calc | [https://xvibelabs.com/tools/108-print-demand-profit-calculator/](https://xvibelabs.com/tools/108-print-demand-profit-calculator/) |
+| `109-landed-cost-calculator` | **LandedCost Studio** | Landed Cost & Duty Audit | [https://xvibelabs.com/tools/109-landed-cost-calculator/](https://xvibelabs.com/tools/109-landed-cost-calculator/) |
+| `110-break-even-roas-calculator` | **RoasMargin Studio** | Break-Even ROAS & CPA | [https://xvibelabs.com/tools/110-break-even-roas-calculator/](https://xvibelabs.com/tools/110-break-even-roas-calculator/) |
+| `111-reorder-point-calculator` | **ReorderStock Studio** | Reorder Point & Safety Stock | [https://xvibelabs.com/tools/111-reorder-point-calculator/](https://xvibelabs.com/tools/111-reorder-point-calculator/) |
+| `112-markup-calculator` | **MarkupMargin Studio** | Wholesale Markup & Margin | [https://xvibelabs.com/tools/112-markup-calculator/](https://xvibelabs.com/tools/112-markup-calculator/) |
+| `113-stripe-fee-calculator` | **GatewayFee Studio** | Stripe & PayPal Fee Audit | [https://xvibelabs.com/tools/113-stripe-fee-calculator/](https://xvibelabs.com/tools/113-stripe-fee-calculator/) |
+| `114-price-elasticity-calculator` | **ElasticityMargin Studio** | Price Elasticity & Promo | [https://xvibelabs.com/tools/114-price-elasticity-calculator/](https://xvibelabs.com/tools/114-price-elasticity-calculator/) |
+| `115-dropshipping-ad-spend-profit` | **DropProfit Studio** | Dropshipping Ad Profit | [https://xvibelabs.com/tools/115-dropshipping-ad-spend-profit/](https://xvibelabs.com/tools/115-dropshipping-ad-spend-profit/) |
+| `116-subscription-churn-ltv-calcula` | **ChurnLtv Studio** | Churn & LTV Calculator | [https://xvibelabs.com/tools/116-subscription-churn-ltv-calcula/](https://xvibelabs.com/tools/116-subscription-churn-ltv-calcula/) |
+| `117-b2b-net-invoice` | **NetTerms Studio** | B2B Net 30 Invoice | [https://xvibelabs.com/tools/117-b2b-net-invoice/](https://xvibelabs.com/tools/117-b2b-net-invoice/) |
