@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 50,
+  "tools_count": 51,
   "tools": [
+    {
+      "name": "sanitize_wholesale_bundle_margin_calcul",
+      "product_slug": "118-wholesale-bundle-margin-calcul",
+      "title": "Local Wholesale Bundle Margin Calcul (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Wholesale Bundle Margin Calcul payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/118-wholesale-bundle-margin-calcul/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/118-wholesale-bundle-margin-calcul/",
+      "free_workbench_url": "https://xvibelabs.com/tools/118-wholesale-bundle-margin-calcul/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/118-wholesale-bundle-margin-calcul/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Wholesale Bundle Margin Calcul text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_b2b_net_invoice",
       "product_slug": "117-b2b-net-invoice",
