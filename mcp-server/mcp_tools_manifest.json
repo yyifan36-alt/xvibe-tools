@@ -4,8 +4,268 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 40,
+  "tools_count": 50,
   "tools": [
+    {
+      "name": "sanitize_b2b_net_invoice",
+      "product_slug": "117-b2b-net-invoice",
+      "title": "Local B2B Net Invoice (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from B2B Net Invoice payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/117-b2b-net-invoice/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/117-b2b-net-invoice/",
+      "free_workbench_url": "https://xvibelabs.com/tools/117-b2b-net-invoice/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/117-b2b-net-invoice/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw B2B Net Invoice text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_subscription_churn_ltv_calcula",
+      "product_slug": "116-subscription-churn-ltv-calcula",
+      "title": "Local Subscription Churn Ltv Calcula (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Subscription Churn Ltv Calcula payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/116-subscription-churn-ltv-calcula/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/116-subscription-churn-ltv-calcula/",
+      "free_workbench_url": "https://xvibelabs.com/tools/116-subscription-churn-ltv-calcula/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/116-subscription-churn-ltv-calcula/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Subscription Churn Ltv Calcula text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_dropshipping_ad_spend_profit",
+      "product_slug": "115-dropshipping-ad-spend-profit",
+      "title": "Local Dropshipping Ad Spend Profit (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Dropshipping Ad Spend Profit payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/115-dropshipping-ad-spend-profit/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/115-dropshipping-ad-spend-profit/",
+      "free_workbench_url": "https://xvibelabs.com/tools/115-dropshipping-ad-spend-profit/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/115-dropshipping-ad-spend-profit/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Dropshipping Ad Spend Profit text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_price_elasticity_calculator",
+      "product_slug": "114-price-elasticity-calculator",
+      "title": "Local Price Elasticity Calculator (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Price Elasticity Calculator payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/114-price-elasticity-calculator/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/114-price-elasticity-calculator/",
+      "free_workbench_url": "https://xvibelabs.com/tools/114-price-elasticity-calculator/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/114-price-elasticity-calculator/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Price Elasticity Calculator text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_stripe_fee_calculator",
+      "product_slug": "113-stripe-fee-calculator",
+      "title": "Local Stripe Fee Calculator (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Stripe Fee Calculator payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/113-stripe-fee-calculator/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/113-stripe-fee-calculator/",
+      "free_workbench_url": "https://xvibelabs.com/tools/113-stripe-fee-calculator/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/113-stripe-fee-calculator/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Stripe Fee Calculator text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_markup_calculator",
+      "product_slug": "112-markup-calculator",
+      "title": "Local Markup Calculator (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Markup Calculator payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/112-markup-calculator/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/112-markup-calculator/",
+      "free_workbench_url": "https://xvibelabs.com/tools/112-markup-calculator/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/112-markup-calculator/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Markup Calculator text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_reorder_point_calculator",
+      "product_slug": "111-reorder-point-calculator",
+      "title": "Local Reorder Point Calculator (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Reorder Point Calculator payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/111-reorder-point-calculator/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/111-reorder-point-calculator/",
+      "free_workbench_url": "https://xvibelabs.com/tools/111-reorder-point-calculator/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/111-reorder-point-calculator/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Reorder Point Calculator text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_break_even_roas_calculator",
+      "product_slug": "110-break-even-roas-calculator",
+      "title": "Local Break Even Roas Calculator (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Break Even Roas Calculator payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/110-break-even-roas-calculator/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/110-break-even-roas-calculator/",
+      "free_workbench_url": "https://xvibelabs.com/tools/110-break-even-roas-calculator/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/110-break-even-roas-calculator/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Break Even Roas Calculator text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_landed_cost_calculator",
+      "product_slug": "109-landed-cost-calculator",
+      "title": "Local Landed Cost Calculator (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Landed Cost Calculator payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/109-landed-cost-calculator/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/109-landed-cost-calculator/",
+      "free_workbench_url": "https://xvibelabs.com/tools/109-landed-cost-calculator/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/109-landed-cost-calculator/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Landed Cost Calculator text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
+    {
+      "name": "sanitize_print_demand_profit_calculator",
+      "product_slug": "108-print-demand-profit-calculator",
+      "title": "Local Print Demand Profit Calculator (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Print Demand Profit Calculator payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/108-print-demand-profit-calculator/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/108-print-demand-profit-calculator/",
+      "free_workbench_url": "https://xvibelabs.com/tools/108-print-demand-profit-calculator/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/108-print-demand-profit-calculator/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Print Demand Profit Calculator text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_allocate_freight_customs_duty",
       "product_slug": "107-allocate-freight-customs-duty",
