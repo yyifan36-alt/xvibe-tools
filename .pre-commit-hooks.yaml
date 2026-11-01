@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-118-wholesale-bundle-margin-calcul
+  name: XVibe Local Wholesale Bundle Margin Calcul
+  description: Zero-upload client-side sanitizer for Wholesale Bundle Margin Calcul (https://xvibelabs.com/tools/118-wholesale-bundle-margin-calcul/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=118-wholesale-bundle-margin-calcul
+  language: system
+  types: [text]
 - id: xvibe-117-b2b-net-invoice
   name: XVibe Local B2B Net Invoice
   description: Zero-upload client-side sanitizer for B2B Net Invoice (https://xvibelabs.com/tools/117-b2b-net-invoice/)
