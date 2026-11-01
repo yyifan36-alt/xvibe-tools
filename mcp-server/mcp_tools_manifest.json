@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 51,
+  "tools_count": 52,
   "tools": [
+    {
+      "name": "sanitize_buy_now_pay_later",
+      "product_slug": "119-buy-now-pay-later",
+      "title": "Local Buy Now Pay Later (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Buy Now Pay Later payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/119-buy-now-pay-later/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/119-buy-now-pay-later/",
+      "free_workbench_url": "https://xvibelabs.com/tools/119-buy-now-pay-later/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/119-buy-now-pay-later/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Buy Now Pay Later text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_wholesale_bundle_margin_calcul",
       "product_slug": "118-wholesale-bundle-margin-calcul",
