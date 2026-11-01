@@ -6,6 +6,66 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-117-b2b-net-invoice
+  name: XVibe Local B2B Net Invoice
+  description: Zero-upload client-side sanitizer for B2B Net Invoice (https://xvibelabs.com/tools/117-b2b-net-invoice/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=117-b2b-net-invoice
+  language: system
+  types: [text]
+- id: xvibe-116-subscription-churn-ltv-calcula
+  name: XVibe Local Subscription Churn Ltv Calcula
+  description: Zero-upload client-side sanitizer for Subscription Churn Ltv Calcula (https://xvibelabs.com/tools/116-subscription-churn-ltv-calcula/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=116-subscription-churn-ltv-calcula
+  language: system
+  types: [text]
+- id: xvibe-115-dropshipping-ad-spend-profit
+  name: XVibe Local Dropshipping Ad Spend Profit
+  description: Zero-upload client-side sanitizer for Dropshipping Ad Spend Profit (https://xvibelabs.com/tools/115-dropshipping-ad-spend-profit/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=115-dropshipping-ad-spend-profit
+  language: system
+  types: [text]
+- id: xvibe-114-price-elasticity-calculator
+  name: XVibe Local Price Elasticity Calculator
+  description: Zero-upload client-side sanitizer for Price Elasticity Calculator (https://xvibelabs.com/tools/114-price-elasticity-calculator/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=114-price-elasticity-calculator
+  language: system
+  types: [text]
+- id: xvibe-113-stripe-fee-calculator
+  name: XVibe Local Stripe Fee Calculator
+  description: Zero-upload client-side sanitizer for Stripe Fee Calculator (https://xvibelabs.com/tools/113-stripe-fee-calculator/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=113-stripe-fee-calculator
+  language: system
+  types: [text]
+- id: xvibe-112-markup-calculator
+  name: XVibe Local Markup Calculator
+  description: Zero-upload client-side sanitizer for Markup Calculator (https://xvibelabs.com/tools/112-markup-calculator/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=112-markup-calculator
+  language: system
+  types: [text]
+- id: xvibe-111-reorder-point-calculator
+  name: XVibe Local Reorder Point Calculator
+  description: Zero-upload client-side sanitizer for Reorder Point Calculator (https://xvibelabs.com/tools/111-reorder-point-calculator/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=111-reorder-point-calculator
+  language: system
+  types: [text]
+- id: xvibe-110-break-even-roas-calculator
+  name: XVibe Local Break Even Roas Calculator
+  description: Zero-upload client-side sanitizer for Break Even Roas Calculator (https://xvibelabs.com/tools/110-break-even-roas-calculator/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=110-break-even-roas-calculator
+  language: system
+  types: [text]
+- id: xvibe-109-landed-cost-calculator
+  name: XVibe Local Landed Cost Calculator
+  description: Zero-upload client-side sanitizer for Landed Cost Calculator (https://xvibelabs.com/tools/109-landed-cost-calculator/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=109-landed-cost-calculator
+  language: system
+  types: [text]
+- id: xvibe-108-print-demand-profit-calculator
+  name: XVibe Local Print Demand Profit Calculator
+  description: Zero-upload client-side sanitizer for Print Demand Profit Calculator (https://xvibelabs.com/tools/108-print-demand-profit-calculator/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=108-print-demand-profit-calculator
+  language: system
+  types: [text]
 - id: xvibe-107-allocate-freight-customs-duty
   name: XVibe Local Allocate Freight Customs Duty
   description: Zero-upload client-side sanitizer for Allocate Freight Customs Duty (https://xvibelabs.com/tools/107-allocate-freight-customs-duty/)
