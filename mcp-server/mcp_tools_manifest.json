@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 54,
+  "tools_count": 55,
   "tools": [
+    {
+      "name": "sanitize_custom_packaging_moq_unit",
+      "product_slug": "122-custom-packaging-moq-unit",
+      "title": "Local Custom Packaging Moq Unit (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Custom Packaging Moq Unit payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/122-custom-packaging-moq-unit/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/122-custom-packaging-moq-unit/",
+      "free_workbench_url": "https://xvibelabs.com/tools/122-custom-packaging-moq-unit/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/122-custom-packaging-moq-unit/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Custom Packaging Moq Unit text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_return_restocking_fee",
       "product_slug": "121-return-restocking-fee",
