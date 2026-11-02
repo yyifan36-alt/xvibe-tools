@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **53 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **54 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (53 Formats)
+## 🛡️ Supported Appliances (54 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -74,3 +74,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `118-wholesale-bundle-margin-calcul` | **BundleTier Studio** | Wholesale Bundle Margin | [https://xvibelabs.com/tools/118-wholesale-bundle-margin-calcul/](https://xvibelabs.com/tools/118-wholesale-bundle-margin-calcul/) |
 | `119-buy-now-pay-later` | **BNPLMargin Studio** | BNPL Merchant Fee Math | [https://xvibelabs.com/tools/119-buy-now-pay-later/](https://xvibelabs.com/tools/119-buy-now-pay-later/) |
 | `120-influencer-affiliate-commissio` | **CreatorTier Studio** | Affiliate Commission Math | [https://xvibelabs.com/tools/120-influencer-affiliate-commissio/](https://xvibelabs.com/tools/120-influencer-affiliate-commissio/) |
+| `121-return-restocking-fee` | **ReturnMargin Studio** | Return & Restocking Math | [https://xvibelabs.com/tools/121-return-restocking-fee/](https://xvibelabs.com/tools/121-return-restocking-fee/) |
