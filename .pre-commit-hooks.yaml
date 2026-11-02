@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-122-custom-packaging-moq-unit
+  name: XVibe Local Custom Packaging Moq Unit
+  description: Zero-upload client-side sanitizer for Custom Packaging Moq Unit (https://xvibelabs.com/tools/122-custom-packaging-moq-unit/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=122-custom-packaging-moq-unit
+  language: system
+  types: [text]
 - id: xvibe-121-return-restocking-fee
   name: XVibe Local Return Restocking Fee
   description: Zero-upload client-side sanitizer for Return Restocking Fee (https://xvibelabs.com/tools/121-return-restocking-fee/)
