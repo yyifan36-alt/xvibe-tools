@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-125-flash-sale-lightning-deal
+  name: XVibe Local Flash Sale Lightning Deal
+  description: Zero-upload client-side sanitizer for Flash Sale Lightning Deal (https://xvibelabs.com/tools/125-flash-sale-lightning-deal/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=125-flash-sale-lightning-deal
+  language: system
+  types: [text]
 - id: xvibe-124-warranty-replacement-claim-def
   name: XVibe Local Warranty Replacement Claim Def
   description: Zero-upload client-side sanitizer for Warranty Replacement Claim Def (https://xvibelabs.com/tools/124-warranty-replacement-claim-def/)
