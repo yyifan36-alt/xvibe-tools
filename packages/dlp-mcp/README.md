@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **55 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **56 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (55 Formats)
+## 🛡️ Supported Appliances (56 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -76,3 +76,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `120-influencer-affiliate-commissio` | **CreatorTier Studio** | Affiliate Commission Math | [https://xvibelabs.com/tools/120-influencer-affiliate-commissio/](https://xvibelabs.com/tools/120-influencer-affiliate-commissio/) |
 | `121-return-restocking-fee` | **ReturnMargin Studio** | Return & Restocking Math | [https://xvibelabs.com/tools/121-return-restocking-fee/](https://xvibelabs.com/tools/121-return-restocking-fee/) |
 | `122-custom-packaging-moq-unit` | **PackMOQ Studio** | Packaging MOQ Audit | [https://xvibelabs.com/tools/122-custom-packaging-moq-unit/](https://xvibelabs.com/tools/122-custom-packaging-moq-unit/) |
+| `123-ecommerce-sales-tax-economic` | **NexusGuard Studio** | Sales Tax Nexus Audit | [https://xvibelabs.com/tools/123-ecommerce-sales-tax-economic/](https://xvibelabs.com/tools/123-ecommerce-sales-tax-economic/) |
