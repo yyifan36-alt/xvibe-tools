@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 57,
+  "tools_count": 58,
   "tools": [
+    {
+      "name": "sanitize_flash_sale_lightning_deal",
+      "product_slug": "125-flash-sale-lightning-deal",
+      "title": "Local Flash Sale Lightning Deal (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Flash Sale Lightning Deal payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/125-flash-sale-lightning-deal/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/125-flash-sale-lightning-deal/",
+      "free_workbench_url": "https://xvibelabs.com/tools/125-flash-sale-lightning-deal/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/125-flash-sale-lightning-deal/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Flash Sale Lightning Deal text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_warranty_replacement_claim_def",
       "product_slug": "124-warranty-replacement-claim-def",
