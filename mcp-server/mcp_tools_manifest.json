@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 58,
+  "tools_count": 59,
   "tools": [
+    {
+      "name": "sanitize_shopify_pos_retail_staff",
+      "product_slug": "126-shopify-pos-retail-staff",
+      "title": "Local Shopify Pos Retail Staff (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Shopify Pos Retail Staff payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/126-shopify-pos-retail-staff/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/126-shopify-pos-retail-staff/",
+      "free_workbench_url": "https://xvibelabs.com/tools/126-shopify-pos-retail-staff/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/126-shopify-pos-retail-staff/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Shopify Pos Retail Staff text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_flash_sale_lightning_deal",
       "product_slug": "125-flash-sale-lightning-deal",
