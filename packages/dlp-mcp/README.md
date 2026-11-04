@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **59 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **60 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (59 Formats)
+## 🛡️ Supported Appliances (60 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -80,3 +80,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `124-warranty-replacement-claim-def` | **WarrantyReserve Studio** | Warranty Reserve Audit | [https://xvibelabs.com/tools/124-warranty-replacement-claim-def/](https://xvibelabs.com/tools/124-warranty-replacement-claim-def/) |
 | `125-flash-sale-lightning-deal` | **FlashDeal Studio** | Flash Sale Profit Audit | [https://xvibelabs.com/tools/125-flash-sale-lightning-deal/](https://xvibelabs.com/tools/125-flash-sale-lightning-deal/) |
 | `126-shopify-pos-retail-staff` | **RetailPOS Studio** | Retail POS Break-Even | [https://xvibelabs.com/tools/126-shopify-pos-retail-staff/](https://xvibelabs.com/tools/126-shopify-pos-retail-staff/) |
+| `127-order-protection-shipping-insu` | **ShipProtect Studio** | Shipping Protection Audit | [https://xvibelabs.com/tools/127-order-protection-shipping-insu/](https://xvibelabs.com/tools/127-order-protection-shipping-insu/) |
