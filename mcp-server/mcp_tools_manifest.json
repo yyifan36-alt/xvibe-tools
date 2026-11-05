@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 61,
+  "tools_count": 62,
   "tools": [
+    {
+      "name": "sanitize_abandoned_cart_sms_email",
+      "product_slug": "129-abandoned-cart-sms-email",
+      "title": "Local Abandoned Cart Sms Email (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Abandoned Cart Sms Email payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/129-abandoned-cart-sms-email/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/129-abandoned-cart-sms-email/",
+      "free_workbench_url": "https://xvibelabs.com/tools/129-abandoned-cart-sms-email/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/129-abandoned-cart-sms-email/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Abandoned Cart Sms Email text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_post_purchase_one_click",
       "product_slug": "128-post-purchase-one-click",
