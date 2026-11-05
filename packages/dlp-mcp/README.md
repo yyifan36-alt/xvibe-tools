@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **61 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **62 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (61 Formats)
+## 🛡️ Supported Appliances (62 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -82,3 +82,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `126-shopify-pos-retail-staff` | **RetailPOS Studio** | Retail POS Break-Even | [https://xvibelabs.com/tools/126-shopify-pos-retail-staff/](https://xvibelabs.com/tools/126-shopify-pos-retail-staff/) |
 | `127-order-protection-shipping-insu` | **ShipProtect Studio** | Shipping Protection Audit | [https://xvibelabs.com/tools/127-order-protection-shipping-insu/](https://xvibelabs.com/tools/127-order-protection-shipping-insu/) |
 | `128-post-purchase-one-click` | **OneClickROI Studio** | Post-Purchase Upsell ROI | [https://xvibelabs.com/tools/128-post-purchase-one-click/](https://xvibelabs.com/tools/128-post-purchase-one-click/) |
+| `129-abandoned-cart-sms-email` | **CartLadder Studio** | Cart Recovery ROI Audit | [https://xvibelabs.com/tools/129-abandoned-cart-sms-email/](https://xvibelabs.com/tools/129-abandoned-cart-sms-email/) |
