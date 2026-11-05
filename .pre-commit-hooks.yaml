@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-131-multi-channel-inventory-sync
+  name: XVibe Local Multi Channel Inventory Sync
+  description: Zero-upload client-side sanitizer for Multi Channel Inventory Sync (https://xvibelabs.com/tools/131-multi-channel-inventory-sync/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=131-multi-channel-inventory-sync
+  language: system
+  types: [text]
 - id: xvibe-130-warehouse-safety-stock-reorder
   name: XVibe Local Warehouse Safety Stock Reorder
   description: Zero-upload client-side sanitizer for Warehouse Safety Stock Reorder (https://xvibelabs.com/tools/130-warehouse-safety-stock-reorder/)
