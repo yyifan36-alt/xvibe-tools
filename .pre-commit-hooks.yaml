@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-130-warehouse-safety-stock-reorder
+  name: XVibe Local Warehouse Safety Stock Reorder
+  description: Zero-upload client-side sanitizer for Warehouse Safety Stock Reorder (https://xvibelabs.com/tools/130-warehouse-safety-stock-reorder/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=130-warehouse-safety-stock-reorder
+  language: system
+  types: [text]
 - id: xvibe-129-abandoned-cart-sms-email
   name: XVibe Local Abandoned Cart Sms Email
   description: Zero-upload client-side sanitizer for Abandoned Cart Sms Email (https://xvibelabs.com/tools/129-abandoned-cart-sms-email/)
