@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **65 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **66 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (65 Formats)
+## 🛡️ Supported Appliances (66 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -86,3 +86,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `130-warehouse-safety-stock-reorder` | **ReorderGuard Studio** | Safety Stock & Reorder | [https://xvibelabs.com/tools/130-warehouse-safety-stock-reorder/](https://xvibelabs.com/tools/130-warehouse-safety-stock-reorder/) |
 | `131-multi-channel-inventory-sync` | **ChannelBuffer Studio** | Multi-Channel Holdback | [https://xvibelabs.com/tools/131-multi-channel-inventory-sync/](https://xvibelabs.com/tools/131-multi-channel-inventory-sync/) |
 | `132-product-sample-seeding-influen` | **PRSeedROI Studio** | PR Box & Seeding ROI | [https://xvibelabs.com/tools/132-product-sample-seeding-influen/](https://xvibelabs.com/tools/132-product-sample-seeding-influen/) |
+| `133-seasonal-pre-order-deposit` | **PreOrderCash Studio** | Pre-Order & Factory Cash | [https://xvibelabs.com/tools/133-seasonal-pre-order-deposit/](https://xvibelabs.com/tools/133-seasonal-pre-order-deposit/) |
