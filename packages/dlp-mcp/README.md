@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **64 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **65 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (64 Formats)
+## 🛡️ Supported Appliances (65 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -85,3 +85,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `129-abandoned-cart-sms-email` | **CartLadder Studio** | Cart Recovery ROI Audit | [https://xvibelabs.com/tools/129-abandoned-cart-sms-email/](https://xvibelabs.com/tools/129-abandoned-cart-sms-email/) |
 | `130-warehouse-safety-stock-reorder` | **ReorderGuard Studio** | Safety Stock & Reorder | [https://xvibelabs.com/tools/130-warehouse-safety-stock-reorder/](https://xvibelabs.com/tools/130-warehouse-safety-stock-reorder/) |
 | `131-multi-channel-inventory-sync` | **ChannelBuffer Studio** | Multi-Channel Holdback | [https://xvibelabs.com/tools/131-multi-channel-inventory-sync/](https://xvibelabs.com/tools/131-multi-channel-inventory-sync/) |
+| `132-product-sample-seeding-influen` | **PRSeedROI Studio** | PR Box & Seeding ROI | [https://xvibelabs.com/tools/132-product-sample-seeding-influen/](https://xvibelabs.com/tools/132-product-sample-seeding-influen/) |
