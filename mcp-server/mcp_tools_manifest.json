@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 66,
+  "tools_count": 67,
   "tools": [
+    {
+      "name": "sanitize_merchant_cash_advance_shopify",
+      "product_slug": "134-merchant-cash-advance-shopify",
+      "title": "Local Merchant Cash Advance Shopify (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Merchant Cash Advance Shopify payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/134-merchant-cash-advance-shopify/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/134-merchant-cash-advance-shopify/",
+      "free_workbench_url": "https://xvibelabs.com/tools/134-merchant-cash-advance-shopify/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/134-merchant-cash-advance-shopify/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Merchant Cash Advance Shopify text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_seasonal_pre_order_deposit",
       "product_slug": "133-seasonal-pre-order-deposit",
