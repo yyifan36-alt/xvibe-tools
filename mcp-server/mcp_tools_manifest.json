@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 65,
+  "tools_count": 66,
   "tools": [
+    {
+      "name": "sanitize_seasonal_pre_order_deposit",
+      "product_slug": "133-seasonal-pre-order-deposit",
+      "title": "Local Seasonal Pre Order Deposit (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Seasonal Pre Order Deposit payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/133-seasonal-pre-order-deposit/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/133-seasonal-pre-order-deposit/",
+      "free_workbench_url": "https://xvibelabs.com/tools/133-seasonal-pre-order-deposit/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/133-seasonal-pre-order-deposit/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Seasonal Pre Order Deposit text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_product_sample_seeding_influen",
       "product_slug": "132-product-sample-seeding-influen",
