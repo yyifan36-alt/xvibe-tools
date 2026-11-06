@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-134-merchant-cash-advance-shopify
+  name: XVibe Local Merchant Cash Advance Shopify
+  description: Zero-upload client-side sanitizer for Merchant Cash Advance Shopify (https://xvibelabs.com/tools/134-merchant-cash-advance-shopify/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=134-merchant-cash-advance-shopify
+  language: system
+  types: [text]
 - id: xvibe-133-seasonal-pre-order-deposit
   name: XVibe Local Seasonal Pre Order Deposit
   description: Zero-upload client-side sanitizer for Seasonal Pre Order Deposit (https://xvibelabs.com/tools/133-seasonal-pre-order-deposit/)
