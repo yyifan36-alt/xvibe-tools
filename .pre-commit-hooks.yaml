@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-132-product-sample-seeding-influen
+  name: XVibe Local Product Sample Seeding Influen
+  description: Zero-upload client-side sanitizer for Product Sample Seeding Influen (https://xvibelabs.com/tools/132-product-sample-seeding-influen/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=132-product-sample-seeding-influen
+  language: system
+  types: [text]
 - id: xvibe-131-multi-channel-inventory-sync
   name: XVibe Local Multi Channel Inventory Sync
   description: Zero-upload client-side sanitizer for Multi Channel Inventory Sync (https://xvibelabs.com/tools/131-multi-channel-inventory-sync/)
