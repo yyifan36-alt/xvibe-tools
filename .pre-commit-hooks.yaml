@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-136-trade-show-booth-calculator
+  name: XVibe Local Trade Show Booth Calculator
+  description: Zero-upload client-side sanitizer for Trade Show Booth Calculator (https://xvibelabs.com/tools/136-trade-show-booth-calculator/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=136-trade-show-booth-calculator
+  language: system
+  types: [text]
 - id: xvibe-135-shopify-international-cross-bo
   name: XVibe Local Shopify International Cross Bo
   description: Zero-upload client-side sanitizer for Shopify International Cross Bo (https://xvibelabs.com/tools/135-shopify-international-cross-bo/)
