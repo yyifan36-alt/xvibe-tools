@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-135-shopify-international-cross-bo
+  name: XVibe Local Shopify International Cross Bo
+  description: Zero-upload client-side sanitizer for Shopify International Cross Bo (https://xvibelabs.com/tools/135-shopify-international-cross-bo/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=135-shopify-international-cross-bo
+  language: system
+  types: [text]
 - id: xvibe-134-merchant-cash-advance-shopify
   name: XVibe Local Merchant Cash Advance Shopify
   description: Zero-upload client-side sanitizer for Merchant Cash Advance Shopify (https://xvibelabs.com/tools/134-merchant-cash-advance-shopify/)
