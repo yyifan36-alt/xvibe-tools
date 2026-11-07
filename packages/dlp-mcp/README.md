@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **67 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **68 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (67 Formats)
+## 🛡️ Supported Appliances (68 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -88,3 +88,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `132-product-sample-seeding-influen` | **PRSeedROI Studio** | PR Box & Seeding ROI | [https://xvibelabs.com/tools/132-product-sample-seeding-influen/](https://xvibelabs.com/tools/132-product-sample-seeding-influen/) |
 | `133-seasonal-pre-order-deposit` | **PreOrderCash Studio** | Pre-Order & Factory Cash | [https://xvibelabs.com/tools/133-seasonal-pre-order-deposit/](https://xvibelabs.com/tools/133-seasonal-pre-order-deposit/) |
 | `134-merchant-cash-advance-shopify` | **MCATrueAPR Studio** | MCA Factor & True APR | [https://xvibelabs.com/tools/134-merchant-cash-advance-shopify/](https://xvibelabs.com/tools/134-merchant-cash-advance-shopify/) |
+| `135-shopify-international-cross-bo` | **CrossBorderDDP Studio** | Cross-Border DDP & VAT | [https://xvibelabs.com/tools/135-shopify-international-cross-bo/](https://xvibelabs.com/tools/135-shopify-international-cross-bo/) |
