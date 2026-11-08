@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 72,
+  "tools_count": 73,
   "tools": [
+    {
+      "name": "sanitize_ecommerce_product_photography",
+      "product_slug": "140-ecommerce-product-photography",
+      "title": "Local Ecommerce Product Photography (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Ecommerce Product Photography payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/140-ecommerce-product-photography/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/140-ecommerce-product-photography/",
+      "free_workbench_url": "https://xvibelabs.com/tools/140-ecommerce-product-photography/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/140-ecommerce-product-photography/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Ecommerce Product Photography text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_ecommerce_dead_stock_inventory",
       "product_slug": "139-ecommerce-dead-stock-inventory",
