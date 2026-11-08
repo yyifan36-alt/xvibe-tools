@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **70 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **71 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (70 Formats)
+## 🛡️ Supported Appliances (71 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -91,3 +91,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `135-shopify-international-cross-bo` | **CrossBorderDDP Studio** | Cross-Border DDP & VAT | [https://xvibelabs.com/tools/135-shopify-international-cross-bo/](https://xvibelabs.com/tools/135-shopify-international-cross-bo/) |
 | `136-trade-show-booth-calculator` | **ExpoMargin Studio** | Expo Booth & B2B ROI | [https://xvibelabs.com/tools/136-trade-show-booth-calculator/](https://xvibelabs.com/tools/136-trade-show-booth-calculator/) |
 | `137-retail-store-shelf-slotting` | **ShelfSlotROI Studio** | Slotting & Retail Margin | [https://xvibelabs.com/tools/137-retail-store-shelf-slotting/](https://xvibelabs.com/tools/137-retail-store-shelf-slotting/) |
+| `138-chargeback-representment-visa` | **ChargebackGuard Studio** | Chargeback Win-Rate ROI | [https://xvibelabs.com/tools/138-chargeback-representment-visa/](https://xvibelabs.com/tools/138-chargeback-representment-visa/) |
