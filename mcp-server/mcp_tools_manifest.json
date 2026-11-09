@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 75,
+  "tools_count": 76,
   "tools": [
+    {
+      "name": "sanitize_amazon_fba_inbound_placement",
+      "product_slug": "143-amazon-fba-inbound-placement",
+      "title": "Local Amazon Fba Inbound Placement (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Amazon Fba Inbound Placement payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/143-amazon-fba-inbound-placement/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/143-amazon-fba-inbound-placement/",
+      "free_workbench_url": "https://xvibelabs.com/tools/143-amazon-fba-inbound-placement/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/143-amazon-fba-inbound-placement/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Amazon Fba Inbound Placement text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_shopify_or_amazon_or",
       "product_slug": "142-shopify-or-amazon-or",
