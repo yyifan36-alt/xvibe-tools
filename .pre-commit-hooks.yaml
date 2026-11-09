@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-142-shopify-or-amazon-or
+  name: XVibe Local Shopify Or Amazon Or
+  description: Zero-upload client-side sanitizer for Shopify Or Amazon Or (https://xvibelabs.com/tools/142-shopify-or-amazon-or/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=142-shopify-or-amazon-or
+  language: system
+  types: [text]
 - id: xvibe-141-ecommerce-3pl-pick-pack
   name: XVibe Local Ecommerce 3Pl Pick Pack
   description: Zero-upload client-side sanitizer for Ecommerce 3Pl Pick Pack (https://xvibelabs.com/tools/141-ecommerce-3pl-pick-pack/)
