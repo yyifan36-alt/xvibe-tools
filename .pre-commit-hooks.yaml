@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-141-ecommerce-3pl-pick-pack
+  name: XVibe Local Ecommerce 3Pl Pick Pack
+  description: Zero-upload client-side sanitizer for Ecommerce 3Pl Pick Pack (https://xvibelabs.com/tools/141-ecommerce-3pl-pick-pack/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=141-ecommerce-3pl-pick-pack
+  language: system
+  types: [text]
 - id: xvibe-140-ecommerce-product-photography
   name: XVibe Local Ecommerce Product Photography
   description: Zero-upload client-side sanitizer for Ecommerce Product Photography (https://xvibelabs.com/tools/140-ecommerce-product-photography/)
