@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **73 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **74 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (73 Formats)
+## 🛡️ Supported Appliances (74 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -94,3 +94,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `138-chargeback-representment-visa` | **ChargebackGuard Studio** | Chargeback Win-Rate ROI | [https://xvibelabs.com/tools/138-chargeback-representment-visa/](https://xvibelabs.com/tools/138-chargeback-representment-visa/) |
 | `139-ecommerce-dead-stock-inventory` | **DeadStockCash Studio** | Dead Stock Cash Recovery | [https://xvibelabs.com/tools/139-ecommerce-dead-stock-inventory/](https://xvibelabs.com/tools/139-ecommerce-dead-stock-inventory/) |
 | `140-ecommerce-product-photography` | **CreativeROI Studio** | UGC & Shoot ROI Math | [https://xvibelabs.com/tools/140-ecommerce-product-photography/](https://xvibelabs.com/tools/140-ecommerce-product-photography/) |
+| `141-ecommerce-3pl-pick-pack` | **DimWeight3PL Studio** | 3PL Pick-Pack & DIM Math | [https://xvibelabs.com/tools/141-ecommerce-3pl-pick-pack/](https://xvibelabs.com/tools/141-ecommerce-3pl-pick-pack/) |
