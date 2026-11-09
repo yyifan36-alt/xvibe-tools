@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-143-amazon-fba-inbound-placement
+  name: XVibe Local Amazon Fba Inbound Placement
+  description: Zero-upload client-side sanitizer for Amazon Fba Inbound Placement (https://xvibelabs.com/tools/143-amazon-fba-inbound-placement/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=143-amazon-fba-inbound-placement
+  language: system
+  types: [text]
 - id: xvibe-142-shopify-or-amazon-or
   name: XVibe Local Shopify Or Amazon Or
   description: Zero-upload client-side sanitizer for Shopify Or Amazon Or (https://xvibelabs.com/tools/142-shopify-or-amazon-or/)
