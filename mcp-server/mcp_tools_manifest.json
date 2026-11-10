@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 76,
+  "tools_count": 77,
   "tools": [
+    {
+      "name": "sanitize_international_ddp_vs_calculato",
+      "product_slug": "144-international-ddp-vs-calculato",
+      "title": "Local International Ddp Vs Calculato (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from International Ddp Vs Calculato payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/144-international-ddp-vs-calculato/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/144-international-ddp-vs-calculato/",
+      "free_workbench_url": "https://xvibelabs.com/tools/144-international-ddp-vs-calculato/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/144-international-ddp-vs-calculato/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw International Ddp Vs Calculato text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_amazon_fba_inbound_placement",
       "product_slug": "143-amazon-fba-inbound-placement",
