@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-144-international-ddp-vs-calculato
+  name: XVibe Local International Ddp Vs Calculato
+  description: Zero-upload client-side sanitizer for International Ddp Vs Calculato (https://xvibelabs.com/tools/144-international-ddp-vs-calculato/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=144-international-ddp-vs-calculato
+  language: system
+  types: [text]
 - id: xvibe-143-amazon-fba-inbound-placement
   name: XVibe Local Amazon Fba Inbound Placement
   description: Zero-upload client-side sanitizer for Amazon Fba Inbound Placement (https://xvibelabs.com/tools/143-amazon-fba-inbound-placement/)
