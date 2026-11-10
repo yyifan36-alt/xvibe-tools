@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **78 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **79 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (78 Formats)
+## 🛡️ Supported Appliances (79 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -99,3 +99,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `143-amazon-fba-inbound-placement` | **FBAPlacement Studio** | FBA Placement Fee Math | [https://xvibelabs.com/tools/143-amazon-fba-inbound-placement/](https://xvibelabs.com/tools/143-amazon-fba-inbound-placement/) |
 | `144-international-ddp-vs-calculato` | **DutyClearDDP Studio** | DDP vs DDU Duty Audit | [https://xvibelabs.com/tools/144-international-ddp-vs-calculato/](https://xvibelabs.com/tools/144-international-ddp-vs-calculato/) |
 | `145-klarna-affirm-afterpay-bnpl` | **BNPLMargin Studio** | BNPL Fee & AOV Audit | [https://xvibelabs.com/tools/145-klarna-affirm-afterpay-bnpl/](https://xvibelabs.com/tools/145-klarna-affirm-afterpay-bnpl/) |
+| `146-amazon-awd-upstream-storage` | **AWDReplenish Studio** | AWD vs FBA Storage Audit | [https://xvibelabs.com/tools/146-amazon-awd-upstream-storage/](https://xvibelabs.com/tools/146-amazon-awd-upstream-storage/) |
