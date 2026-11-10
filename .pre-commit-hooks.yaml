@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-146-amazon-awd-upstream-storage
+  name: XVibe Local Amazon Awd Upstream Storage
+  description: Zero-upload client-side sanitizer for Amazon Awd Upstream Storage (https://xvibelabs.com/tools/146-amazon-awd-upstream-storage/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=146-amazon-awd-upstream-storage
+  language: system
+  types: [text]
 - id: xvibe-145-klarna-affirm-afterpay-bnpl
   name: XVibe Local Klarna Affirm Afterpay Bnpl
   description: Zero-upload client-side sanitizer for Klarna Affirm Afterpay Bnpl (https://xvibelabs.com/tools/145-klarna-affirm-afterpay-bnpl/)
