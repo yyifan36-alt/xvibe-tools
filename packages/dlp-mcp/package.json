@@ -1,7 +1,7 @@
 {
   "name": "@xvibe/dlp-mcp",
-  "version": "1.76.0",
-  "description": "Deterministic Pre-LLM Local Zero-Trust DLP Firewall & AST Pseudo-Anonymizer (76 appliances, 0 bytes uploaded).",
+  "version": "1.77.0",
+  "description": "Deterministic Pre-LLM Local Zero-Trust DLP Firewall & AST Pseudo-Anonymizer (77 appliances, 0 bytes uploaded).",
   "type": "module",
   "mcpName": "io.github.yyifan36-alt/dlp-mcp",
   "bin": {
