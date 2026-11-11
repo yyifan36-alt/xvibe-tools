@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 81,
+  "tools_count": 82,
   "tools": [
+    {
+      "name": "sanitize_us_import_tariff_duty",
+      "product_slug": "149-us-import-tariff-duty",
+      "title": "Local Us Import Tariff Duty (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Us Import Tariff Duty payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/149-us-import-tariff-duty/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/149-us-import-tariff-duty/",
+      "free_workbench_url": "https://xvibelabs.com/tools/149-us-import-tariff-duty/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/149-us-import-tariff-duty/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Us Import Tariff Duty text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_amazon_vine_review_enrollment",
       "product_slug": "148-amazon-vine-review-enrollment",
