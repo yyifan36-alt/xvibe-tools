@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **81 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **82 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (81 Formats)
+## 🛡️ Supported Appliances (82 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -102,3 +102,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `146-amazon-awd-upstream-storage` | **AWDReplenish Studio** | AWD vs FBA Storage Audit | [https://xvibelabs.com/tools/146-amazon-awd-upstream-storage/](https://xvibelabs.com/tools/146-amazon-awd-upstream-storage/) |
 | `147-tiktok-shop-affiliate-sample` | **SampleGuardTTS Studio** | TikTok Sample ROI Audit | [https://xvibelabs.com/tools/147-tiktok-shop-affiliate-sample/](https://xvibelabs.com/tools/147-tiktok-shop-affiliate-sample/) |
 | `148-amazon-vine-review-enrollment` | **VinePayback Studio** | Amazon Vine ROI Audit | [https://xvibelabs.com/tools/148-amazon-vine-review-enrollment/](https://xvibelabs.com/tools/148-amazon-vine-review-enrollment/) |
+| `149-us-import-tariff-duty` | **TariffShield301 Studio** | US Tariff & Section 301 Audit | [https://xvibelabs.com/tools/149-us-import-tariff-duty/](https://xvibelabs.com/tools/149-us-import-tariff-duty/) |
