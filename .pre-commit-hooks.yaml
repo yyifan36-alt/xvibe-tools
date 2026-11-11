@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-149-us-import-tariff-duty
+  name: XVibe Local Us Import Tariff Duty
+  description: Zero-upload client-side sanitizer for Us Import Tariff Duty (https://xvibelabs.com/tools/149-us-import-tariff-duty/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=149-us-import-tariff-duty
+  language: system
+  types: [text]
 - id: xvibe-148-amazon-vine-review-enrollment
   name: XVibe Local Amazon Vine Review Enrollment
   description: Zero-upload client-side sanitizer for Amazon Vine Review Enrollment (https://xvibelabs.com/tools/148-amazon-vine-review-enrollment/)
