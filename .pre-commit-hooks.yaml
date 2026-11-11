@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-148-amazon-vine-review-enrollment
+  name: XVibe Local Amazon Vine Review Enrollment
+  description: Zero-upload client-side sanitizer for Amazon Vine Review Enrollment (https://xvibelabs.com/tools/148-amazon-vine-review-enrollment/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=148-amazon-vine-review-enrollment
+  language: system
+  types: [text]
 - id: xvibe-147-tiktok-shop-affiliate-sample
   name: XVibe Local Tiktok Shop Affiliate Sample
   description: Zero-upload client-side sanitizer for Tiktok Shop Affiliate Sample (https://xvibelabs.com/tools/147-tiktok-shop-affiliate-sample/)
