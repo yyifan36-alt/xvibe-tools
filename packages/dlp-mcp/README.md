@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **82 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **83 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (82 Formats)
+## 🛡️ Supported Appliances (83 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -103,3 +103,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `147-tiktok-shop-affiliate-sample` | **SampleGuardTTS Studio** | TikTok Sample ROI Audit | [https://xvibelabs.com/tools/147-tiktok-shop-affiliate-sample/](https://xvibelabs.com/tools/147-tiktok-shop-affiliate-sample/) |
 | `148-amazon-vine-review-enrollment` | **VinePayback Studio** | Amazon Vine ROI Audit | [https://xvibelabs.com/tools/148-amazon-vine-review-enrollment/](https://xvibelabs.com/tools/148-amazon-vine-review-enrollment/) |
 | `149-us-import-tariff-duty` | **TariffShield301 Studio** | US Tariff & Section 301 Audit | [https://xvibelabs.com/tools/149-us-import-tariff-duty/](https://xvibelabs.com/tools/149-us-import-tariff-duty/) |
+| `150-amazon-brand-referral-bonus` | **BrandReferral10 Studio** | Amazon 10% Referral Bonus | [https://xvibelabs.com/tools/150-amazon-brand-referral-bonus/](https://xvibelabs.com/tools/150-amazon-brand-referral-bonus/) |
