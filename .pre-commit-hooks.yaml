@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-152-dental-medspa-patient-financin
+  name: XVibe Local Dental Medspa Patient Financin
+  description: Zero-upload client-side sanitizer for Dental Medspa Patient Financin (https://xvibelabs.com/tools/152-dental-medspa-patient-financin/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=152-dental-medspa-patient-financin
+  language: system
+  types: [text]
 - id: xvibe-151-patreon-substack-paid-newslett
   name: XVibe Local Patreon Substack Paid Newslett
   description: Zero-upload client-side sanitizer for Patreon Substack Paid Newslett (https://xvibelabs.com/tools/151-patreon-substack-paid-newslett/)
