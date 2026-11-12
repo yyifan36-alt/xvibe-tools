@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-151-patreon-substack-paid-newslett
+  name: XVibe Local Patreon Substack Paid Newslett
+  description: Zero-upload client-side sanitizer for Patreon Substack Paid Newslett (https://xvibelabs.com/tools/151-patreon-substack-paid-newslett/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=151-patreon-substack-paid-newslett
+  language: system
+  types: [text]
 - id: xvibe-150-amazon-brand-referral-bonus
   name: XVibe Local Amazon Brand Referral Bonus
   description: Zero-upload client-side sanitizer for Amazon Brand Referral Bonus (https://xvibelabs.com/tools/150-amazon-brand-referral-bonus/)
