@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-154-gym-fitness-classpass
+  name: XVibe Local Gym Fitness Classpass
+  description: Zero-upload client-side sanitizer for Gym Fitness Classpass (https://xvibelabs.com/tools/154-gym-fitness-classpass/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=154-gym-fitness-classpass
+  language: system
+  types: [text]
 - id: xvibe-153-ebay-promoted-listings-advance
   name: XVibe Local Ebay Promoted Listings Advance
   description: Zero-upload client-side sanitizer for Ebay Promoted Listings Advance (https://xvibelabs.com/tools/153-ebay-promoted-listings-advance/)
