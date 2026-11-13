@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **87 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **88 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (87 Formats)
+## 🛡️ Supported Appliances (88 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -108,3 +108,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `152-dental-medspa-patient-financin` | **PatientFiMD Studio** | Patient Financing MDR | [https://xvibelabs.com/tools/152-dental-medspa-patient-financin/](https://xvibelabs.com/tools/152-dental-medspa-patient-financin/) |
 | `153-ebay-promoted-listings-advance` | **eBayAdMargin Studio** | eBay Promoted Ads Margin | [https://xvibelabs.com/tools/153-ebay-promoted-listings-advance/](https://xvibelabs.com/tools/153-ebay-promoted-listings-advance/) |
 | `154-gym-fitness-classpass` | **ClassYield Studio** | ClassPass Studio Margin | [https://xvibelabs.com/tools/154-gym-fitness-classpass/](https://xvibelabs.com/tools/154-gym-fitness-classpass/) |
+| `155-cold-chain-insulated-mailer` | **ColdPackROI Studio** | Cold-Chain Shipping ROI | [https://xvibelabs.com/tools/155-cold-chain-insulated-mailer/](https://xvibelabs.com/tools/155-cold-chain-insulated-mailer/) |
