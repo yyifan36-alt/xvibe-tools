@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-153-ebay-promoted-listings-advance
+  name: XVibe Local Ebay Promoted Listings Advance
+  description: Zero-upload client-side sanitizer for Ebay Promoted Listings Advance (https://xvibelabs.com/tools/153-ebay-promoted-listings-advance/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=153-ebay-promoted-listings-advance
+  language: system
+  types: [text]
 - id: xvibe-152-dental-medspa-patient-financin
   name: XVibe Local Dental Medspa Patient Financin
   description: Zero-upload client-side sanitizer for Dental Medspa Patient Financin (https://xvibelabs.com/tools/152-dental-medspa-patient-financin/)
