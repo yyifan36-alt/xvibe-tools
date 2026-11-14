@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-158-etsy-offsite-ads-mandatory
+  name: XVibe Local Etsy Offsite Ads Mandatory
+  description: Zero-upload client-side sanitizer for Etsy Offsite Ads Mandatory (https://xvibelabs.com/tools/158-etsy-offsite-ads-mandatory/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=158-etsy-offsite-ads-mandatory
+  language: system
+  types: [text]
 - id: xvibe-157-airbnb-vrbo-short-term
   name: XVibe Local Airbnb Vrbo Short Term
   description: Zero-upload client-side sanitizer for Airbnb Vrbo Short Term (https://xvibelabs.com/tools/157-airbnb-vrbo-short-term/)
