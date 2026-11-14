@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **90 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **91 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (90 Formats)
+## 🛡️ Supported Appliances (91 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -111,3 +111,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `155-cold-chain-insulated-mailer` | **ColdPackROI Studio** | Cold-Chain Shipping ROI | [https://xvibelabs.com/tools/155-cold-chain-insulated-mailer/](https://xvibelabs.com/tools/155-cold-chain-insulated-mailer/) |
 | `156-craft-fair-vendor-calculator` | **BoothProfit Studio** | Craft Fair Booth ROI | [https://xvibelabs.com/tools/156-craft-fair-vendor-calculator/](https://xvibelabs.com/tools/156-craft-fair-vendor-calculator/) |
 | `157-airbnb-vrbo-short-term` | **STRYield Studio** | Airbnb vs Vrbo Margin | [https://xvibelabs.com/tools/157-airbnb-vrbo-short-term/](https://xvibelabs.com/tools/157-airbnb-vrbo-short-term/) |
+| `158-etsy-offsite-ads-mandatory` | **EtsyOffsite Studio** | Etsy Offsite Ads Margin | [https://xvibelabs.com/tools/158-etsy-offsite-ads-mandatory/](https://xvibelabs.com/tools/158-etsy-offsite-ads-mandatory/) |
