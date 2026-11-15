@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **92 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **93 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (92 Formats)
+## 🛡️ Supported Appliances (93 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -113,3 +113,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `157-airbnb-vrbo-short-term` | **STRYield Studio** | Airbnb vs Vrbo Margin | [https://xvibelabs.com/tools/157-airbnb-vrbo-short-term/](https://xvibelabs.com/tools/157-airbnb-vrbo-short-term/) |
 | `158-etsy-offsite-ads-mandatory` | **EtsyOffsite Studio** | Etsy Offsite Ads Margin | [https://xvibelabs.com/tools/158-etsy-offsite-ads-mandatory/](https://xvibelabs.com/tools/158-etsy-offsite-ads-mandatory/) |
 | `159-frozen-food-ecommerce-shipping` | **DryIceBox Studio** | Frozen DTC Dry Ice | [https://xvibelabs.com/tools/159-frozen-food-ecommerce-shipping/](https://xvibelabs.com/tools/159-frozen-food-ecommerce-shipping/) |
+| `160-medical-billing-clearinghouse` | **ClaimYield835 Studio** | RCM & Claim Denial ROI | [https://xvibelabs.com/tools/160-medical-billing-clearinghouse/](https://xvibelabs.com/tools/160-medical-billing-clearinghouse/) |
