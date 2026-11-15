@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-161-atm-operator-independent-deplo
+  name: XVibe Local Atm Operator Independent Deplo
+  description: Zero-upload client-side sanitizer for Atm Operator Independent Deplo (https://xvibelabs.com/tools/161-atm-operator-independent-deplo/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=161-atm-operator-independent-deplo
+  language: system
+  types: [text]
 - id: xvibe-160-medical-billing-clearinghouse
   name: XVibe Local Medical Billing Clearinghouse
   description: Zero-upload client-side sanitizer for Medical Billing Clearinghouse (https://xvibelabs.com/tools/160-medical-billing-clearinghouse/)
