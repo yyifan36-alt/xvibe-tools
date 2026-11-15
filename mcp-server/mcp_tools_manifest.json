@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 91,
+  "tools_count": 92,
   "tools": [
+    {
+      "name": "sanitize_frozen_food_ecommerce_shipping",
+      "product_slug": "159-frozen-food-ecommerce-shipping",
+      "title": "Local Frozen Food Ecommerce Shipping (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Frozen Food Ecommerce Shipping payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/159-frozen-food-ecommerce-shipping/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/159-frozen-food-ecommerce-shipping/",
+      "free_workbench_url": "https://xvibelabs.com/tools/159-frozen-food-ecommerce-shipping/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/159-frozen-food-ecommerce-shipping/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Frozen Food Ecommerce Shipping text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_etsy_offsite_ads_mandatory",
       "product_slug": "158-etsy-offsite-ads-mandatory",
