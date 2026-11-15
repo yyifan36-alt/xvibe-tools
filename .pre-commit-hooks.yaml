@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-160-medical-billing-clearinghouse
+  name: XVibe Local Medical Billing Clearinghouse
+  description: Zero-upload client-side sanitizer for Medical Billing Clearinghouse (https://xvibelabs.com/tools/160-medical-billing-clearinghouse/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=160-medical-billing-clearinghouse
+  language: system
+  types: [text]
 - id: xvibe-159-frozen-food-ecommerce-shipping
   name: XVibe Local Frozen Food Ecommerce Shipping
   description: Zero-upload client-side sanitizer for Frozen Food Ecommerce Shipping (https://xvibelabs.com/tools/159-frozen-food-ecommerce-shipping/)
