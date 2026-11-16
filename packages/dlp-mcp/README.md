@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **96 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **97 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (96 Formats)
+## 🛡️ Supported Appliances (97 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -117,3 +117,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `161-atm-operator-independent-deplo` | **ATMVaultROI Studio** | ATM Route & Vault ROI | [https://xvibelabs.com/tools/161-atm-operator-independent-deplo/](https://xvibelabs.com/tools/161-atm-operator-independent-deplo/) |
 | `162-commercial-pressure-washing-fl` | **RigWashROI Studio** | Soft Wash & Fleet Rig ROI | [https://xvibelabs.com/tools/162-commercial-pressure-washing-fl/](https://xvibelabs.com/tools/162-commercial-pressure-washing-fl/) |
 | `163-auto-detailing-ceramic-coating` | **DetailBayROI Studio** | Ceramic & PPF Bay ROI | [https://xvibelabs.com/tools/163-auto-detailing-ceramic-coating/](https://xvibelabs.com/tools/163-auto-detailing-ceramic-coating/) |
+| `164-food-truck-commissary-kitchen` | **TruckPitchROI Studio** | Food Truck & Pitch ROI | [https://xvibelabs.com/tools/164-food-truck-commissary-kitchen/](https://xvibelabs.com/tools/164-food-truck-commissary-kitchen/) |
