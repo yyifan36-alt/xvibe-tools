@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 95,
+  "tools_count": 96,
   "tools": [
+    {
+      "name": "sanitize_auto_detailing_ceramic_coating",
+      "product_slug": "163-auto-detailing-ceramic-coating",
+      "title": "Local Auto Detailing Ceramic Coating (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Auto Detailing Ceramic Coating payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/163-auto-detailing-ceramic-coating/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/163-auto-detailing-ceramic-coating/",
+      "free_workbench_url": "https://xvibelabs.com/tools/163-auto-detailing-ceramic-coating/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/163-auto-detailing-ceramic-coating/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Auto Detailing Ceramic Coating text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_commercial_pressure_washing_fl",
       "product_slug": "162-commercial-pressure-washing-fl",
