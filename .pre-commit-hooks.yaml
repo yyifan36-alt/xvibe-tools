@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-164-food-truck-commissary-kitchen
+  name: XVibe Local Food Truck Commissary Kitchen
+  description: Zero-upload client-side sanitizer for Food Truck Commissary Kitchen (https://xvibelabs.com/tools/164-food-truck-commissary-kitchen/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=164-food-truck-commissary-kitchen
+  language: system
+  types: [text]
 - id: xvibe-163-auto-detailing-ceramic-coating
   name: XVibe Local Auto Detailing Ceramic Coating
   description: Zero-upload client-side sanitizer for Auto Detailing Ceramic Coating (https://xvibelabs.com/tools/163-auto-detailing-ceramic-coating/)
