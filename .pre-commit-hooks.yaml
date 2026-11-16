@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-162-commercial-pressure-washing-fl
+  name: XVibe Local Commercial Pressure Washing Fl
+  description: Zero-upload client-side sanitizer for Commercial Pressure Washing Fl (https://xvibelabs.com/tools/162-commercial-pressure-washing-fl/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=162-commercial-pressure-washing-fl
+  language: system
+  types: [text]
 - id: xvibe-161-atm-operator-independent-deplo
   name: XVibe Local Atm Operator Independent Deplo
   description: Zero-upload client-side sanitizer for Atm Operator Independent Deplo (https://xvibelabs.com/tools/161-atm-operator-independent-deplo/)
