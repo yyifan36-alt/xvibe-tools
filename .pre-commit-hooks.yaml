@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-163-auto-detailing-ceramic-coating
+  name: XVibe Local Auto Detailing Ceramic Coating
+  description: Zero-upload client-side sanitizer for Auto Detailing Ceramic Coating (https://xvibelabs.com/tools/163-auto-detailing-ceramic-coating/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=163-auto-detailing-ceramic-coating
+  language: system
+  types: [text]
 - id: xvibe-162-commercial-pressure-washing-fl
   name: XVibe Local Commercial Pressure Washing Fl
   description: Zero-upload client-side sanitizer for Commercial Pressure Washing Fl (https://xvibelabs.com/tools/162-commercial-pressure-washing-fl/)
