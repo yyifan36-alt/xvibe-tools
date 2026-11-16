@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 96,
+  "tools_count": 97,
   "tools": [
+    {
+      "name": "sanitize_food_truck_commissary_kitchen",
+      "product_slug": "164-food-truck-commissary-kitchen",
+      "title": "Local Food Truck Commissary Kitchen (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Food Truck Commissary Kitchen payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/164-food-truck-commissary-kitchen/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/164-food-truck-commissary-kitchen/",
+      "free_workbench_url": "https://xvibelabs.com/tools/164-food-truck-commissary-kitchen/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/164-food-truck-commissary-kitchen/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Food Truck Commissary Kitchen text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_auto_detailing_ceramic_coating",
       "product_slug": "163-auto-detailing-ceramic-coating",
