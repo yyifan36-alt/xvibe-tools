@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 94,
+  "tools_count": 95,
   "tools": [
+    {
+      "name": "sanitize_commercial_pressure_washing_fl",
+      "product_slug": "162-commercial-pressure-washing-fl",
+      "title": "Local Commercial Pressure Washing Fl (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Commercial Pressure Washing Fl payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/162-commercial-pressure-washing-fl/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/162-commercial-pressure-washing-fl/",
+      "free_workbench_url": "https://xvibelabs.com/tools/162-commercial-pressure-washing-fl/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/162-commercial-pressure-washing-fl/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Commercial Pressure Washing Fl text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_atm_operator_independent_deplo",
       "product_slug": "161-atm-operator-independent-deplo",
