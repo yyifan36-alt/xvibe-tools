@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 99,
+  "tools_count": 100,
   "tools": [
+    {
+      "name": "sanitize_wedding_venue_banquet_hall",
+      "product_slug": "167-wedding-venue-banquet-hall",
+      "title": "Local Wedding Venue Banquet Hall (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Wedding Venue Banquet Hall payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/167-wedding-venue-banquet-hall/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/167-wedding-venue-banquet-hall/",
+      "free_workbench_url": "https://xvibelabs.com/tools/167-wedding-venue-banquet-hall/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/167-wedding-venue-banquet-hall/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Wedding Venue Banquet Hall text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_tree_service_arborist_crane",
       "product_slug": "166-tree-service-arborist-crane",
