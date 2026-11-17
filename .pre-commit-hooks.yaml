@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-165-veterinary-clinic-pet-insuranc
+  name: XVibe Local Veterinary Clinic Pet Insuranc
+  description: Zero-upload client-side sanitizer for Veterinary Clinic Pet Insuranc (https://xvibelabs.com/tools/165-veterinary-clinic-pet-insuranc/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=165-veterinary-clinic-pet-insuranc
+  language: system
+  types: [text]
 - id: xvibe-164-food-truck-commissary-kitchen
   name: XVibe Local Food Truck Commissary Kitchen
   description: Zero-upload client-side sanitizer for Food Truck Commissary Kitchen (https://xvibelabs.com/tools/164-food-truck-commissary-kitchen/)
