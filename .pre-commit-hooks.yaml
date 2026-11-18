@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-169-doggy-daycare-pet-boarding
+  name: XVibe Local Doggy Daycare Pet Boarding
+  description: Zero-upload client-side sanitizer for Doggy Daycare Pet Boarding (https://xvibelabs.com/tools/169-doggy-daycare-pet-boarding/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=169-doggy-daycare-pet-boarding
+  language: system
+  types: [text]
 - id: xvibe-168-martial-arts-bjj-gym
   name: XVibe Local Martial Arts Bjj Gym
   description: Zero-upload client-side sanitizer for Martial Arts Bjj Gym (https://xvibelabs.com/tools/168-martial-arts-bjj-gym/)
