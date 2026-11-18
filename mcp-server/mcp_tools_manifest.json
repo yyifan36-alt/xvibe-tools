@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 100,
+  "tools_count": 101,
   "tools": [
+    {
+      "name": "sanitize_martial_arts_bjj_gym",
+      "product_slug": "168-martial-arts-bjj-gym",
+      "title": "Local Martial Arts Bjj Gym (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Martial Arts Bjj Gym payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/168-martial-arts-bjj-gym/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/168-martial-arts-bjj-gym/",
+      "free_workbench_url": "https://xvibelabs.com/tools/168-martial-arts-bjj-gym/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/168-martial-arts-bjj-gym/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Martial Arts Bjj Gym text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_wedding_venue_banquet_hall",
       "product_slug": "167-wedding-venue-banquet-hall",
