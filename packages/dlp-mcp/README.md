@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **100 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **101 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (100 Formats)
+## 🛡️ Supported Appliances (101 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -121,3 +121,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `165-veterinary-clinic-pet-insuranc` | **VetPlanROI Studio** | Vet Wellness & DVM ROI | [https://xvibelabs.com/tools/165-veterinary-clinic-pet-insuranc/](https://xvibelabs.com/tools/165-veterinary-clinic-pet-insuranc/) |
 | `166-tree-service-arborist-crane` | **ArborRigROI Studio** | Tree Service & Crane ROI | [https://xvibelabs.com/tools/166-tree-service-arborist-crane/](https://xvibelabs.com/tools/166-tree-service-arborist-crane/) |
 | `167-wedding-venue-banquet-hall` | **VenueYieldROI Studio** | Wedding Venue & Bar ROI | [https://xvibelabs.com/tools/167-wedding-venue-banquet-hall/](https://xvibelabs.com/tools/167-wedding-venue-banquet-hall/) |
+| `168-martial-arts-bjj-gym` | **MatYieldBJJ Studio** | BJJ & Martial Arts ROI | [https://xvibelabs.com/tools/168-martial-arts-bjj-gym/](https://xvibelabs.com/tools/168-martial-arts-bjj-gym/) |
