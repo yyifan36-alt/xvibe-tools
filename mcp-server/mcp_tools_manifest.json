@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 102,
+  "tools_count": 103,
   "tools": [
+    {
+      "name": "sanitize_dumpster_rental_roll_off",
+      "product_slug": "170-dumpster-rental-roll-off",
+      "title": "Local Dumpster Rental Roll Off (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Dumpster Rental Roll Off payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/170-dumpster-rental-roll-off/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/170-dumpster-rental-roll-off/",
+      "free_workbench_url": "https://xvibelabs.com/tools/170-dumpster-rental-roll-off/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/170-dumpster-rental-roll-off/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Dumpster Rental Roll Off text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_doggy_daycare_pet_boarding",
       "product_slug": "169-doggy-daycare-pet-boarding",
