@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **104 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **105 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (104 Formats)
+## 🛡️ Supported Appliances (105 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -125,3 +125,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `169-doggy-daycare-pet-boarding` | **KennelYieldROI Studio** | Pet Boarding & Daycare ROI | [https://xvibelabs.com/tools/169-doggy-daycare-pet-boarding/](https://xvibelabs.com/tools/169-doggy-daycare-pet-boarding/) |
 | `170-dumpster-rental-roll-off` | **RollOffYield Studio** | Dumpster & Roll-Off ROI | [https://xvibelabs.com/tools/170-dumpster-rental-roll-off/](https://xvibelabs.com/tools/170-dumpster-rental-roll-off/) |
 | `171-towing-roadside-assistance-mot` | **TowHookROI Studio** | Towing & Impound Lot ROI | [https://xvibelabs.com/tools/171-towing-roadside-assistance-mot/](https://xvibelabs.com/tools/171-towing-roadside-assistance-mot/) |
+| `172-optometry-optical-dispensary-f` | **OpticalBoardROI Studio** | Optical & VSP/EyeMed ROI | [https://xvibelabs.com/tools/172-optometry-optical-dispensary-f/](https://xvibelabs.com/tools/172-optometry-optical-dispensary-f/) |
