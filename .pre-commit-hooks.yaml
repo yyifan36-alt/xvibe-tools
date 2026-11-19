@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-171-towing-roadside-assistance-mot
+  name: XVibe Local Towing Roadside Assistance Mot
+  description: Zero-upload client-side sanitizer for Towing Roadside Assistance Mot (https://xvibelabs.com/tools/171-towing-roadside-assistance-mot/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=171-towing-roadside-assistance-mot
+  language: system
+  types: [text]
 - id: xvibe-170-dumpster-rental-roll-off
   name: XVibe Local Dumpster Rental Roll Off
   description: Zero-upload client-side sanitizer for Dumpster Rental Roll Off (https://xvibelabs.com/tools/170-dumpster-rental-roll-off/)
