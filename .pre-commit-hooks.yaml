@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-174-car-wash-tunnel-unlimited
+  name: XVibe Local Car Wash Tunnel Unlimited
+  description: Zero-upload client-side sanitizer for Car Wash Tunnel Unlimited (https://xvibelabs.com/tools/174-car-wash-tunnel-unlimited/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=174-car-wash-tunnel-unlimited
+  language: system
+  types: [text]
 - id: xvibe-173-self-storage-facility-climate
   name: XVibe Local Self Storage Facility Climate
   description: Zero-upload client-side sanitizer for Self Storage Facility Climate (https://xvibelabs.com/tools/173-self-storage-facility-climate/)
