@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-179-pharmacy-independent-dir-fee
+  name: XVibe Local Pharmacy Independent Dir Fee
+  description: Zero-upload client-side sanitizer for Pharmacy Independent Dir Fee (https://xvibelabs.com/tools/179-pharmacy-independent-dir-fee/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=179-pharmacy-independent-dir-fee
+  language: system
+  types: [text]
 - id: xvibe-178-solar-installer-residential-pp
   name: XVibe Local Solar Installer Residential Pp
   description: Zero-upload client-side sanitizer for Solar Installer Residential Pp (https://xvibelabs.com/tools/178-solar-installer-residential-pp/)
