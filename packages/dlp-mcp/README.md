@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **111 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **112 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (111 Formats)
+## 🛡️ Supported Appliances (112 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -132,3 +132,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `176-lawn-care-landscaping-mowing` | **LawnRouteROI Studio** | Lawn Route & Mower ROI | [https://xvibelabs.com/tools/176-lawn-care-landscaping-mowing/](https://xvibelabs.com/tools/176-lawn-care-landscaping-mowing/) |
 | `177-roofing-contractor-asphalt-shi` | **RoofSquareROI Studio** | Roofing Square & O&P ROI | [https://xvibelabs.com/tools/177-roofing-contractor-asphalt-shi/](https://xvibelabs.com/tools/177-roofing-contractor-asphalt-shi/) |
 | `178-solar-installer-residential-pp` | **SolarRedlineROI Studio** | Solar PPW & Redline ROI | [https://xvibelabs.com/tools/178-solar-installer-residential-pp/](https://xvibelabs.com/tools/178-solar-installer-residential-pp/) |
+| `179-pharmacy-independent-dir-fee` | **RxMarginNADAC Studio** | Pharmacy PBM & NADAC ROI | [https://xvibelabs.com/tools/179-pharmacy-independent-dir-fee/](https://xvibelabs.com/tools/179-pharmacy-independent-dir-fee/) |
