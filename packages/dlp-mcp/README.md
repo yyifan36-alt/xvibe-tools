@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **109 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **110 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (109 Formats)
+## 🛡️ Supported Appliances (110 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -130,3 +130,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `174-car-wash-tunnel-unlimited` | **TunnelClubROI Studio** | Car Wash Club & Churn ROI | [https://xvibelabs.com/tools/174-car-wash-tunnel-unlimited/](https://xvibelabs.com/tools/174-car-wash-tunnel-unlimited/) |
 | `175-vending-machine-micro-market` | **VendRouteROI Studio** | Vending & Micro-Market ROI | [https://xvibelabs.com/tools/175-vending-machine-micro-market/](https://xvibelabs.com/tools/175-vending-machine-micro-market/) |
 | `176-lawn-care-landscaping-mowing` | **LawnRouteROI Studio** | Lawn Route & Mower ROI | [https://xvibelabs.com/tools/176-lawn-care-landscaping-mowing/](https://xvibelabs.com/tools/176-lawn-care-landscaping-mowing/) |
+| `177-roofing-contractor-asphalt-shi` | **RoofSquareROI Studio** | Roofing Square & O&P ROI | [https://xvibelabs.com/tools/177-roofing-contractor-asphalt-shi/](https://xvibelabs.com/tools/177-roofing-contractor-asphalt-shi/) |
