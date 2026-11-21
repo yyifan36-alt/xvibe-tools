@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-177-roofing-contractor-asphalt-shi
+  name: XVibe Local Roofing Contractor Asphalt Shi
+  description: Zero-upload client-side sanitizer for Roofing Contractor Asphalt Shi (https://xvibelabs.com/tools/177-roofing-contractor-asphalt-shi/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=177-roofing-contractor-asphalt-shi
+  language: system
+  types: [text]
 - id: xvibe-176-lawn-care-landscaping-mowing
   name: XVibe Local Lawn Care Landscaping Mowing
   description: Zero-upload client-side sanitizer for Lawn Care Landscaping Mowing (https://xvibelabs.com/tools/176-lawn-care-landscaping-mowing/)
