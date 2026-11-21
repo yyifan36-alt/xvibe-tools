@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 109,
+  "tools_count": 110,
   "tools": [
+    {
+      "name": "sanitize_roofing_contractor_asphalt_shi",
+      "product_slug": "177-roofing-contractor-asphalt-shi",
+      "title": "Local Roofing Contractor Asphalt Shi (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Roofing Contractor Asphalt Shi payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/177-roofing-contractor-asphalt-shi/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/177-roofing-contractor-asphalt-shi/",
+      "free_workbench_url": "https://xvibelabs.com/tools/177-roofing-contractor-asphalt-shi/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/177-roofing-contractor-asphalt-shi/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Roofing Contractor Asphalt Shi text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_lawn_care_landscaping_mowing",
       "product_slug": "176-lawn-care-landscaping-mowing",
