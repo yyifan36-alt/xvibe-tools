@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-182-junk-removal-hauling-truck
+  name: XVibe Local Junk Removal Hauling Truck
+  description: Zero-upload client-side sanitizer for Junk Removal Hauling Truck (https://xvibelabs.com/tools/182-junk-removal-hauling-truck/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=182-junk-removal-hauling-truck
+  language: system
+  types: [text]
 - id: xvibe-181-photobooth-event-rental
   name: XVibe Local Photobooth Event Rental
   description: Zero-upload client-side sanitizer for Photobooth Event Rental (https://xvibelabs.com/tools/181-photobooth-event-rental/)
