@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 114,
+  "tools_count": 115,
   "tools": [
+    {
+      "name": "sanitize_junk_removal_hauling_truck",
+      "product_slug": "182-junk-removal-hauling-truck",
+      "title": "Local Junk Removal Hauling Truck (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Junk Removal Hauling Truck payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/182-junk-removal-hauling-truck/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/182-junk-removal-hauling-truck/",
+      "free_workbench_url": "https://xvibelabs.com/tools/182-junk-removal-hauling-truck/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/182-junk-removal-hauling-truck/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Junk Removal Hauling Truck text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_photobooth_event_rental",
       "product_slug": "181-photobooth-event-rental",
