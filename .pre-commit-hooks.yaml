@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-183-carpet-cleaning-upholstery-tru
+  name: XVibe Local Carpet Cleaning Upholstery Tru
+  description: Zero-upload client-side sanitizer for Carpet Cleaning Upholstery Tru (https://xvibelabs.com/tools/183-carpet-cleaning-upholstery-tru/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=183-carpet-cleaning-upholstery-tru
+  language: system
+  types: [text]
 - id: xvibe-182-junk-removal-hauling-truck
   name: XVibe Local Junk Removal Hauling Truck
   description: Zero-upload client-side sanitizer for Junk Removal Hauling Truck (https://xvibelabs.com/tools/182-junk-removal-hauling-truck/)
