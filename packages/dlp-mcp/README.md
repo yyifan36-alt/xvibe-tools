@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **115 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **116 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (115 Formats)
+## 🛡️ Supported Appliances (116 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -136,3 +136,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `180-hvac-plumbing-flat-rate` | **PricebookROI Studio** | HVAC & Plumbing Flat-Rate | [https://xvibelabs.com/tools/180-hvac-plumbing-flat-rate/](https://xvibelabs.com/tools/180-hvac-plumbing-flat-rate/) |
 | `181-photobooth-event-rental` | **BoothYield360 Studio** | 360 & DSLR Photo Booth ROI | [https://xvibelabs.com/tools/181-photobooth-event-rental/](https://xvibelabs.com/tools/181-photobooth-event-rental/) |
 | `182-junk-removal-hauling-truck` | **HaulBedROI Studio** | Junk Removal Bed Margin | [https://xvibelabs.com/tools/182-junk-removal-hauling-truck/](https://xvibelabs.com/tools/182-junk-removal-hauling-truck/) |
+| `183-carpet-cleaning-upholstery-tru` | **WandYieldHWE Studio** | Carpet Truckmount ROI | [https://xvibelabs.com/tools/183-carpet-cleaning-upholstery-tru/](https://xvibelabs.com/tools/183-carpet-cleaning-upholstery-tru/) |
