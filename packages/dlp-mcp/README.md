@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **120 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **121 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (120 Formats)
+## 🛡️ Supported Appliances (121 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -141,3 +141,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `185-medspa-botox-filler-neurotoxin` | **ToxYieldMedSpa Studio** | MedSpa Botox & Laser ROI | [https://xvibelabs.com/tools/185-medspa-botox-filler-neurotoxin/](https://xvibelabs.com/tools/185-medspa-botox-filler-neurotoxin/) |
 | `186-portable-toilet-restroom-trail` | **PortaRouteROI Studio** | Portable Toilet Route ROI | [https://xvibelabs.com/tools/186-portable-toilet-restroom-trail/](https://xvibelabs.com/tools/186-portable-toilet-restroom-trail/) |
 | `187-epoxy-garage-floor-coating` | **FlakeCoatROI Studio** | Epoxy Floor Coating ROI | [https://xvibelabs.com/tools/187-epoxy-garage-floor-coating/](https://xvibelabs.com/tools/187-epoxy-garage-floor-coating/) |
+| `188-moving-company-movers` | **MoveCrewROI Studio** | Moving Fleet Crew ROI | [https://xvibelabs.com/tools/188-moving-company-movers/](https://xvibelabs.com/tools/188-moving-company-movers/) |
