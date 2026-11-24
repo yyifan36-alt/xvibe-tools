@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **118 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **119 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (118 Formats)
+## 🛡️ Supported Appliances (119 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -139,3 +139,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `183-carpet-cleaning-upholstery-tru` | **WandYieldHWE Studio** | Carpet Truckmount ROI | [https://xvibelabs.com/tools/183-carpet-cleaning-upholstery-tru/](https://xvibelabs.com/tools/183-carpet-cleaning-upholstery-tru/) |
 | `184-pest-control-route-density` | **PestRouteROI Studio** | Pest Control Route ROI | [https://xvibelabs.com/tools/184-pest-control-route-density/](https://xvibelabs.com/tools/184-pest-control-route-density/) |
 | `185-medspa-botox-filler-neurotoxin` | **ToxYieldMedSpa Studio** | MedSpa Botox & Laser ROI | [https://xvibelabs.com/tools/185-medspa-botox-filler-neurotoxin/](https://xvibelabs.com/tools/185-medspa-botox-filler-neurotoxin/) |
+| `186-portable-toilet-restroom-trail` | **PortaRouteROI Studio** | Portable Toilet Route ROI | [https://xvibelabs.com/tools/186-portable-toilet-restroom-trail/](https://xvibelabs.com/tools/186-portable-toilet-restroom-trail/) |
