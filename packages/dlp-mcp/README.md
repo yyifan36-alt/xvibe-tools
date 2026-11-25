@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **122 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **123 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (122 Formats)
+## 🛡️ Supported Appliances (123 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -143,3 +143,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `187-epoxy-garage-floor-coating` | **FlakeCoatROI Studio** | Epoxy Floor Coating ROI | [https://xvibelabs.com/tools/187-epoxy-garage-floor-coating/](https://xvibelabs.com/tools/187-epoxy-garage-floor-coating/) |
 | `188-moving-company-movers` | **MoveCrewROI Studio** | Moving Fleet Crew ROI | [https://xvibelabs.com/tools/188-moving-company-movers/](https://xvibelabs.com/tools/188-moving-company-movers/) |
 | `189-gutter-guard-seamless-aluminum` | **GutterCoilROI Studio** | Seamless Gutter & Guard | [https://xvibelabs.com/tools/189-gutter-guard-seamless-aluminum/](https://xvibelabs.com/tools/189-gutter-guard-seamless-aluminum/) |
+| `190-window-tinting-ppf-wrap` | **TintRollROI Studio** | Window Tint & Wrap ROI | [https://xvibelabs.com/tools/190-window-tinting-ppf-wrap/](https://xvibelabs.com/tools/190-window-tinting-ppf-wrap/) |
