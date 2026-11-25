@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 122,
+  "tools_count": 123,
   "tools": [
+    {
+      "name": "sanitize_window_tinting_ppf_wrap",
+      "product_slug": "190-window-tinting-ppf-wrap",
+      "title": "Local Window Tinting Ppf Wrap (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Window Tinting Ppf Wrap payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/190-window-tinting-ppf-wrap/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/190-window-tinting-ppf-wrap/",
+      "free_workbench_url": "https://xvibelabs.com/tools/190-window-tinting-ppf-wrap/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/190-window-tinting-ppf-wrap/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Window Tinting Ppf Wrap text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_gutter_guard_seamless_aluminum",
       "product_slug": "189-gutter-guard-seamless-aluminum",
