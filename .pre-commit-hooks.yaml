@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-189-gutter-guard-seamless-aluminum
+  name: XVibe Local Gutter Guard Seamless Aluminum
+  description: Zero-upload client-side sanitizer for Gutter Guard Seamless Aluminum (https://xvibelabs.com/tools/189-gutter-guard-seamless-aluminum/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=189-gutter-guard-seamless-aluminum
+  language: system
+  types: [text]
 - id: xvibe-188-moving-company-movers
   name: XVibe Local Moving Company Movers
   description: Zero-upload client-side sanitizer for Moving Company Movers (https://xvibelabs.com/tools/188-moving-company-movers/)
