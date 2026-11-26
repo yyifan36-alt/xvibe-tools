@@ -4,8 +4,34 @@
   "description": "Unified 100% Local Zero-Upload Pre-LLM & Ticket Security Sanitizer MCP Server covering 19+ DevOps, Cloud IaC, Database, and FinTech formats.",
   "homepage": "https://xvibelabs.com/",
   "repository": "https://github.com/yyifan36-alt/xvibe-tools",
-  "tools_count": 125,
+  "tools_count": 126,
   "tools": [
+    {
+      "name": "sanitize_chiropractor_spinal_decompress",
+      "product_slug": "193-chiropractor-spinal-decompress",
+      "title": "Local Chiropractor Spinal Decompress (Zero Cloud Upload)",
+      "description": "Sanitizes and redacts sensitive tokens, keys, and PII from Chiropractor Spinal Decompress payloads 100% locally before pasting into ChatGPT, Claude, Cursor, or Jira tickets. Web Studio: https://xvibelabs.com/tools/193-chiropractor-spinal-decompress/",
+      "canonical_studio_url": "https://xvibelabs.com/tools/193-chiropractor-spinal-decompress/",
+      "free_workbench_url": "https://xvibelabs.com/tools/193-chiropractor-spinal-decompress/free-tool/",
+      "llms_spec_url": "https://xvibelabs.com/tools/193-chiropractor-spinal-decompress/llms.txt",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "payload": {
+            "type": "string",
+            "description": "Raw Chiropractor Spinal Decompress text to sanitize locally"
+          },
+          "intensity": {
+            "type": "integer",
+            "default": 70,
+            "description": "Sanitization strictness (1-100)"
+          }
+        },
+        "required": [
+          "payload"
+        ]
+      }
+    },
     {
       "name": "sanitize_wood_vinyl_fence_installation",
       "product_slug": "192-wood-vinyl-fence-installation",
