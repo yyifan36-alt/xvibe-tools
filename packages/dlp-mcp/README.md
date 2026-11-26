@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **125 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **126 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (125 Formats)
+## 🛡️ Supported Appliances (126 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -146,3 +146,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `190-window-tinting-ppf-wrap` | **TintRollROI Studio** | Window Tint & Wrap ROI | [https://xvibelabs.com/tools/190-window-tinting-ppf-wrap/](https://xvibelabs.com/tools/190-window-tinting-ppf-wrap/) |
 | `191-swimming-pool-maintenance-week` | **PoolRouteROI Studio** | Pool Service Route ROI | [https://xvibelabs.com/tools/191-swimming-pool-maintenance-week/](https://xvibelabs.com/tools/191-swimming-pool-maintenance-week/) |
 | `192-wood-vinyl-fence-installation` | **FencePostROI Studio** | Fence Post & Gate ROI | [https://xvibelabs.com/tools/192-wood-vinyl-fence-installation/](https://xvibelabs.com/tools/192-wood-vinyl-fence-installation/) |
+| `193-chiropractor-spinal-decompress` | **SpineCareROI Studio** | Chiro Decompression ROI | [https://xvibelabs.com/tools/193-chiropractor-spinal-decompress/](https://xvibelabs.com/tools/193-chiropractor-spinal-decompress/) |
