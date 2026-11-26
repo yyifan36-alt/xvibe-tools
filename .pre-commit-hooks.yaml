@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-194-screen-printing-plastisol-ink
+  name: XVibe Local Screen Printing Plastisol Ink
+  description: Zero-upload client-side sanitizer for Screen Printing Plastisol Ink (https://xvibelabs.com/tools/194-screen-printing-plastisol-ink/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=194-screen-printing-plastisol-ink
+  language: system
+  types: [text]
 - id: xvibe-193-chiropractor-spinal-decompress
   name: XVibe Local Chiropractor Spinal Decompress
   description: Zero-upload client-side sanitizer for Chiropractor Spinal Decompress (https://xvibelabs.com/tools/193-chiropractor-spinal-decompress/)
