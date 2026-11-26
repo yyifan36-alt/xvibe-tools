@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-192-wood-vinyl-fence-installation
+  name: XVibe Local Wood Vinyl Fence Installation
+  description: Zero-upload client-side sanitizer for Wood Vinyl Fence Installation (https://xvibelabs.com/tools/192-wood-vinyl-fence-installation/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=192-wood-vinyl-fence-installation
+  language: system
+  types: [text]
 - id: xvibe-191-swimming-pool-maintenance-week
   name: XVibe Local Swimming Pool Maintenance Week
   description: Zero-upload client-side sanitizer for Swimming Pool Maintenance Week (https://xvibelabs.com/tools/191-swimming-pool-maintenance-week/)
