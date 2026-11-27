@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.github.yyifan36-alt/dlp-mcp -->
 
-**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **129 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
+**Zero-Dependency Local `stdio` MCP Server & Unix CLI** supporting **130 infrastructure, database, financial, and security formats** in local RAM (`0 Bytes Uploaded`).
 
 ## ⚡ 1-Command Setup for Claude Code & Cursor
 
@@ -17,7 +17,7 @@ npx -y @xvibe/dlp-mcp --init
 cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-secret > safe.conf
 ```
 
-## 🛡️ Supported Appliances (129 Formats)
+## 🛡️ Supported Appliances (130 Formats)
 
 | Slug | Appliance Name | Primary Domain | Web Sandbox & $19 PRO License |
 | :--- | :--- | :--- | :--- |
@@ -150,3 +150,4 @@ cat production.conf | npx -y @xvibe/dlp-mcp --pipe --slug=085-systemd-unit-env-s
 | `194-screen-printing-plastisol-ink` | **ScreenPressROI Studio** | Screen Print & Stitch ROI | [https://xvibelabs.com/tools/194-screen-printing-plastisol-ink/](https://xvibelabs.com/tools/194-screen-printing-plastisol-ink/) |
 | `195-spray-foam-insulation-open` | **FoamBoardFtROI Studio** | Spray Foam Board-Ft ROI | [https://xvibelabs.com/tools/195-spray-foam-insulation-open/](https://xvibelabs.com/tools/195-spray-foam-insulation-open/) |
 | `196-septic-tank-pumping-vacuum` | **SepticVacROI Studio** | Septic Vac-Truck ROI | [https://xvibelabs.com/tools/196-septic-tank-pumping-vacuum/](https://xvibelabs.com/tools/196-septic-tank-pumping-vacuum/) |
+| `197-asphalt-paving-sealcoating-dri` | **PaveSealROI Studio** | Asphalt & Sealcoat ROI | [https://xvibelabs.com/tools/197-asphalt-paving-sealcoating-dri/](https://xvibelabs.com/tools/197-asphalt-paving-sealcoating-dri/) |
