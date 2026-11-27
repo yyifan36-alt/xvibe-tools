@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-195-spray-foam-insulation-open
+  name: XVibe Local Spray Foam Insulation Open
+  description: Zero-upload client-side sanitizer for Spray Foam Insulation Open (https://xvibelabs.com/tools/195-spray-foam-insulation-open/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=195-spray-foam-insulation-open
+  language: system
+  types: [text]
 - id: xvibe-194-screen-printing-plastisol-ink
   name: XVibe Local Screen Printing Plastisol Ink
   description: Zero-upload client-side sanitizer for Screen Printing Plastisol Ink (https://xvibelabs.com/tools/194-screen-printing-plastisol-ink/)
