@@ -6,6 +6,12 @@
   entry: npx --yes @xvibelabs/xvibe-scrub --check
   language: system
   types: [text]
+- id: xvibe-197-asphalt-paving-sealcoating-dri
+  name: XVibe Local Asphalt Paving Sealcoating Dri
+  description: Zero-upload client-side sanitizer for Asphalt Paving Sealcoating Dri (https://xvibelabs.com/tools/197-asphalt-paving-sealcoating-dri/)
+  entry: npx --yes @xvibelabs/xvibe-scrub --tool=197-asphalt-paving-sealcoating-dri
+  language: system
+  types: [text]
 - id: xvibe-196-septic-tank-pumping-vacuum
   name: XVibe Local Septic Tank Pumping Vacuum
   description: Zero-upload client-side sanitizer for Septic Tank Pumping Vacuum (https://xvibelabs.com/tools/196-septic-tank-pumping-vacuum/)
